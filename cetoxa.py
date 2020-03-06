@@ -9,6 +9,7 @@
 import os, glob, getpass, math, sys, argparse
 from random import randint
 import pandas as pd
+import tempfile, shutil
 
 class BoxSize():
     def __init__(self, dimx, dimy, dimz):
@@ -17,7 +18,6 @@ class BoxSize():
         self.dimz = dimz
 
 def default_box_size(filename):
-
     coord_x = []
     coord_y = []
     coord_z = []
@@ -105,66 +105,92 @@ def get_bindingsite(filename):
 
     return xcm,ycm,zcm,bindingsites
 
-def dock(pathway,target_dir,targets,binding_dir,ligand):
+def dock(pathway, tmpdir, target_dir, targets, binding_dir,
+         ligand, ncpu, verbose):
     for ppp in range(len(targets)):
         p=targets[ppp]
         target_pdbqt    = target_dir + "/" + p
-        bindingsites_txt = binding_dir + "/" + p[:-6] + "_bindingsites.txt"
+        pdbcode = p[:-6]
+        bindingsites_txt = binding_dir + "/" + pdbcode + "_bindingsites.txt"
 
         #Get the box dimensions
         box = default_box_size(ligand)
         xcm,ycm,zcm,bindingsites=get_bindingsite(bindingsites_txt)
-
         for i in range(int(bindingsites)):
 
-            logfn            = "results/" + p[:-6] + "_site" + str(i) + ".log"
-            outfn            = "results/" + p[:-6] + "_site" + str(i) + ".models.pdbqt"
-            os.system("  %s --log %s --out %s --exhaustiveness 8 --cpu 1 --receptor %s --ligand %s --center_x %f  --center_y %f  --center_z %f --size_x %f --size_y %f --size_z %f\n" % ( pathway,logfn, outfn, target_pdbqt, ligand, float(xcm[i]), float(ycm[i]), float(zcm[i]), box.dimx, box.dimy, box.dimz ) )
+            logfn            = tmpdir + "/" + pdbcode + "_site" + str(i) + ".log"
+            outfn            = tmpdir + "/" + pdbcode + "_site" + str(i) + ".models.pdbqt"
+            cmd = ( "%s --log %s --out %s --exhaustiveness 8 --receptor %s --ligand %s --center_x %f  --center_y %f  --center_z %f --size_x %f --size_y %f --size_z %f --cpu %d" % ( pathway, logfn, outfn, target_pdbqt, ligand, float(xcm[i]), float(ycm[i]), float(zcm[i]), box.dimx, box.dimy, box.dimz, ncpu ) )
+            print("%s site %d" % ( pdbcode, i ) )
+            if verbose:
+                os.system(cmd)
+            else:
+                os.system("%s >& /dev/null" % cmd)
 
+def vina_compare(a, b):
+    if (str(a[0]) == str(b[0])):
+        return a[2]-b[2]
+    else:
+        return str(a[0]) < str(b[0])
 
-def extract(protInfo,targets,binding_dir,ligand):
-    output=[]
+def cmp_to_key(mycmp):
+    'Convert a cmp= function into a key= function'
+    class K:
+        def __init__(self, obj, *args):
+            self.obj = obj
+        def __lt__(self, other):
+            return mycmp(self.obj, other.obj) < 0
+        def __gt__(self, other):
+            return mycmp(self.obj, other.obj) > 0
+        def __eq__(self, other):
+            return mycmp(self.obj, other.obj) == 0
+        def __le__(self, other):
+            return mycmp(self.obj, other.obj) <= 0
+        def __ge__(self, other):
+            return mycmp(self.obj, other.obj) >= 0
+        def __ne__(self, other):
+            return mycmp(self.obj, other.obj) != 0
+    return K
+
+def extract(protInfo, tmpdir, targets, binding_dir, ligand, outfile):
+    output = []
     for ppp in range(len(targets)):
-        p = targets[ppp]
+        p      = targets[ppp]
         target = p[:-6]
-        protname=protInfo['NAME'][protInfo['PDBID']==target].to_string(index=False)
-        protfam=protInfo['FAMILY'][protInfo['PDBID']==target].to_string(index=False)
+        protname=protInfo['Name'][protInfo['PDBID']==target].to_string(index=False)
+        protfam=protInfo['Family'][protInfo['PDBID']==target].to_string(index=False)
         bindingsites_txt = binding_dir + "/" + p[:-6] + "_bindingsites.txt"
-        bindingsites = len(open(bindingsites_txt).readlines())
+        bindingsites     = len(open(bindingsites_txt).readlines())
 
-        energy=100.0
-        index=-1
-        arr=[]
+        energy = 1000.0
+        index  = None
         for sites in range(bindingsites):
-            model = "results/" + target + "_site" + str(sites) + ".models.pdbqt"
-            protsite = open(model, "r")
-            for line in protsite:
-                if line.find("REMARK VINA RESULT") >= 0:
-                    if (float(line.split()[3]) < energy):
-                        energy = float(line.split()[3])
-                        index=sites
-                    break
-            protsite.close()
-        if (energy>99):
-            print("Warning, error in energy")
-            exit()
-        output.append([protfam,protname,energy])
+            model = tmpdir + "/" + target + "_site" + str(sites) + ".models.pdbqt"
+            if os.path.exists(model):
+                with open(model, "r") as protsite:
+                    for line in protsite.readlines():
+                        if line.strip().find("REMARK VINA RESULT") >= 0:
+                            newenergy = float(line.split()[3])
+                            if newenergy < energy:
+                                energy = newenergy
+                                index  = sites
+                            break
+            else:
+                print("No such output file %s" % model)
+        if index != None:
+            output.append([protfam, protname, energy, index])
+        else:
+            # Print a warning, but keep going
+            print("Warning, no energy for target %s" % target)
 
     #Sort the energies
-    sorted_output=sorted(output,key=lambda x:x[2]) 
+    sorted_output = sorted(output, key=cmp_to_key(vina_compare))
 
-    header=['Protein Family','Protein Name','Vina Score']
-    row_format="{:<25}{:<55}{:<10}\n"
-
-    outputfile=open(ligand[:-6]+'.dockingresults.txt','w')
-
-    #Print the results
-    outputfile.write(row_format.format( *header))
-
-    for data in sorted_output:
-         outputfile.write(row_format.format(*data))
-
-    outputfile.close()
+    with open(outfile, "w") as outputfile:
+        # Print the results
+        outputfile.write("%s,%s,%s,%s\n" % ( 'Class', 'Target', 'Score', 'Site' ) )
+        for data in sorted_output:
+            outputfile.write("%s,%s,%g,%s\n" % ( data[0], data[1], data[2], data[3] ) )
 
 def which(program):
     def is_exe(fpath):
@@ -183,16 +209,18 @@ def which(program):
     return None
 
 def parseArguments():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-f", "--infile", help="Compound file for docking",   type=str, default=None)
-    parser.add_argument("-o", "--outfile", help="Logfile for writing",   type=str,
-        default="results.txt")
     for qv in [ "qvina02" ]:
         qvina = which(qv)
         if qvina:
             break
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-f", "--infile", help="Compound file for docking in pdbqt format",   type=str, default=None)
+    parser.add_argument("-o", "--outfile", help="CSV file for writing table of results",   type=str, default="results.csv")
     parser.add_argument("-vina", "--vina", help="Pathway to qvina02 executable", default=qvina)
-
+    parser.add_argument("-v", "--verbose", help="Write to console and leave temporary data on disk", action="store_true")
+    parser.add_argument("-save", "--save_temp", help="Do not remove temporary data", action="store_true")
+    parser.add_argument("-analyze", "--analyze", help="Do not run the docking, just analyze existing results", action="store_true")
+    parser.add_argument("-ncpu", "--ncpu", help="Number of cores to use", type=int, default=1)
     args = parser.parse_args()
     return args
 
@@ -202,10 +230,10 @@ if __name__ == '__main__':
     args        = parseArguments()
     if not args.infile:
         print("Please give me an input file or run with -h")
+
         exit(0)
     if not args.vina:
-        print("Please add qvina-w or qvina-2 to your search path or use the -vina flag")
-    exit(0)
+        print("Please add qvina02 to your search path or use the -vina flag")
     target_dir  = cetoxa_dir + "/data/Targets/pdbqt"
     targets     = get_pdbqt(target_dir)
     targetList  = cetoxa_dir + "/data/Targets/Target-list.txt"
@@ -215,12 +243,21 @@ if __name__ == '__main__':
     protInfo    = pd.read_csv(targetList,sep='|')
 
     # Dock
-    print("Calling QVina-2 to perform docking")
-    dock(args.vina, target_dir, targets, binding_dir, ligand)
-    print("Docking complete!")
+    if args.verbose:
+        print("Calling %s to perform docking" % args.vina)
+    tmpdir = "temp"
+    os.makedirs(tmpdir, exist_ok=True)
+    if not args.analyze:
+        dock(args.vina, tmpdir, target_dir, targets, binding_dir,
+             ligand, args.ncpu, args.verbose)
+    print("Docking complete! Temporary results in %s" % tmpdir)
 
     # Extract top scores
-    print("Extracting scores")
-    extract(protInfo, targets, binding_dir, ligand)
+    if args.verbose:
+        print("Extracting scores from %s" % tmpdir)
+    extract(protInfo, tmpdir, targets, binding_dir, ligand, args.outfile)
 
-    print("Completed!")
+    if args.save_temp:
+        shutil.rmtree(tmpdir)
+    if args.verbose:
+        print("Completed!")
