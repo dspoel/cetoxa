@@ -1,0 +1,25 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAJ_2  and  CAK_3 
+ROOT
+HETATM    1  CAK UNK     1      42.993  25.882 -13.129  1.00  0.00     0.070 A 
+HETATM    2  CAG UNK     1      42.394  25.733 -14.387  1.00  0.00     0.067 A 
+HETATM    3  CAD UNK     1      42.404  26.699 -12.165  1.00  0.00     0.038 A 
+HETATM    4  CAF UNK     1      41.207  27.381 -12.434  1.00  0.00     0.017 A 
+HETATM    5  CAN UNK     1      40.591  27.240 -13.694  1.00  0.00     0.003 A 
+HETATM    6  CAO UNK     1      39.402  27.770 -14.289  1.00  0.00     0.006 A 
+HETATM    7  CAE UNK     1      38.395  28.637 -13.843  1.00  0.00     0.034 A 
+HETATM    8  CAC UNK     1      37.380  28.920 -14.740  1.00  0.00     0.118 A 
+HETATM    9  NAH UNK     1      37.298  28.421 -15.991  1.00  0.00    -0.264 NA
+HETATM   10  CAM UNK     1      41.199  26.420 -14.639  1.00  0.00     0.046 A 
+HETATM   11  NAI UNK     1      40.414  26.451 -15.766  1.00  0.00    -0.353 N 
+HETATM   12  CAP UNK     1      39.313  27.257 -15.583  1.00  0.00     0.068 A 
+HETATM   13  CAL UNK     1      38.257  27.569 -16.448  1.00  0.00     0.058 A 
+HETATM   14  CAB UNK     1      38.114  27.068 -17.850  1.00  0.00     0.073 C 
+HETATM   15  HAI UNK     1      40.620  25.943 -16.614  1.00  0.00     0.166 HD
+ENDROOT
+BRANCH   1  16
+HETATM   16  OAJ UNK     1      44.154  25.171 -12.976  1.00  0.00    -0.356 OA
+HETATM   17  CAA UNK     1      44.806  25.266 -11.716  1.00  0.00     0.210 C 
+ENDBRANCH   1  16
+TORSDOF 1

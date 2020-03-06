@@ -1,0 +1,28 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: SBN_2  and  CAX_5 
+REMARK    2  A    between atoms: CAX_5  and  CAV_6 
+REMARK    3  A    between atoms: CAV_6  and  NBM_7 
+ROOT
+HETATM    1  NBM UNK     1      21.779   0.490  21.163  1.00  0.00    -0.297 N 
+HETATM    2  CBI UNK     1      22.004  -0.588  20.326  1.00  0.00     0.265 C 
+HETATM    3  OAA UNK     1      21.779  -1.768  20.566  1.00  0.00    -0.267 OA
+HETATM    4  CBJ UNK     1      21.625   1.706  20.527  1.00  0.00     0.148 C 
+HETATM    5  SAE UNK     1      21.011   3.136  21.140  1.00  0.00    -0.052 SA
+HETATM    6  SBA UNK     1      22.090   1.569  18.828  1.00  0.00    -0.056 SA
+HETATM    7  CBK UNK     1      22.400  -0.107  18.978  1.00  0.00     0.066 C 
+HETATM    8  CAG UNK     1      22.925  -0.887  18.030  1.00  0.00     0.037 C 
+ENDROOT
+BRANCH   1   9
+HETATM    9  CAV UNK     1      21.543   0.284  22.599  1.00  0.00     0.151 C 
+BRANCH   9  10
+HETATM   10  CAX UNK     1      22.390  -0.766  23.309  1.00  0.00     0.185 C 
+BRANCH  10  11
+HETATM   11  SBN UNK     1      24.101  -0.316  23.402  1.00  0.00     0.103 S 
+HETATM   12  OAD UNK     1      24.515  -0.214  22.005  1.00  0.00    -0.595 OA
+HETATM   13  OAC UNK     1      24.691  -1.431  24.140  1.00  0.00    -0.595 OA
+HETATM   14  OAB UNK     1      24.070   0.951  24.128  1.00  0.00    -0.595 OA
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 3

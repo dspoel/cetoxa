@@ -1,0 +1,976 @@
+20006|103-90-2||Acetaminophen
+20022|50594-66-6||Acifluorfen
+20027|79-06-1||Acrylamide
+20040|309-00-2||Aldrin
+20068|117-79-3||2-Aminoanthraquinone
+20069|97-56-3||2-Amino-5-azotoluene
+20087|4180-23-8||(E)-Anethole
+20089|101-05-3||Anilazine
+20105|134-03-2|Removed Na.|Sodium L-ascorbate
+20108|50-78-2||Aspirin
+20112|1912-24-9||Atrazine
+20119|446-86-6||Azathioprine
+20121|26628-22-8|Not supported. Removed Na.|Sodium azide
+20122|86-50-0||Azinphos-methyl
+20123|103-33-3||Azobenzene
+20127|30516-87-1||3-Azido-3-deoxythymidine
+20137|92-87-5||Benzidine
+20140|532-32-1|Removed Na.|Sodium benzoate
+20141|271-89-6||Benzofuran
+20143|65-85-0||Benzoic acid
+20148|98-07-7||Benzotrichloride
+20152|100-51-6||Benzyl alcohol
+20154|120-32-1||Clorophene
+20160|82657-04-3||Bifenthrin
+20161|92-52-4||Biphenyl
+20164|3296-90-0||2,2-Bis(bromomethyl)-1,3-propanediol
+20168|111-44-4||Bis(2-chloroethyl)ether
+20182|80-05-7||Bisphenol A
+20189|3844-45-9|Removed Na Na.|FD&C Blue no. 1
+20194|10043-35-3|Not supported.|Boric acid
+20205|85-68-7||Butyl benzyl phthalate
+20207|88-85-7||Dinoseb
+20209|94-26-8||Butylparaben
+20220|1948-33-0||tert-Butylhydroquinone
+20221|98-54-4||4-tert-Butylphenol
+20224|96-48-0||4-Butyrolactone
+20232|58-08-2||Caffeine
+20240|105-60-2||Caprolactam
+20242|2425-06-1||Captafol
+20243|133-06-2||Captan
+20247|63-25-2||Carbaryl
+20249|1563-66-2||Carbofuran
+20257|120-80-9||Catechol
+20262|133-90-4||Chloramben
+20267|57-74-9||Chlordane
+20268|115-28-6||Chlorendic acid
+20281|100-00-5||1-Chloro-4-nitrobenzene
+20283|95-83-0||4-Chloro-1,2-diaminobenzene
+20290|50892-23-4||Pirinixic acid
+20293|532-27-4||2-Chloroacetophenone
+20295|106-47-8||4-Chloroaniline
+20299|510-15-6||Chlorobenzilate
+20311|150-68-5||Monuron
+20319|1897-45-6||Chlorothalonil
+20332|77-92-9||Citric acid
+20336|637-07-0||Clofibrate
+20347|56-72-4||Coumaphos
+20348|91-64-5||Coumarin
+20350|120-71-8||2-Methoxy-5-methylaniline
+20370|1596-84-5||Daminozide
+20371|80-08-0||Dapsone
+20373|72-54-8||p,p-DDD
+20374|72-55-9||p,p-DDE
+20375|50-29-3||p,p-DDT
+20392|131-17-9||Diallyl phthalate
+20402|95-80-7||2,4-Diaminotoluene
+20407|333-41-5||Diazinon
+20420|23950-58-5||Propyzamide
+20426|99-30-9||Dicloran
+20428|79-43-6||Dichloroacetic acid
+20430|95-50-1||1,2-Dichlorobenzene
+20431|106-46-7||1,4-Dichlorobenzene
+20439|120-83-2||2,4-Dichlorophenol
+20440|120-36-5||Dichlorprop
+20442|94-75-7||2,4-Dichlorophenoxyacetic acid
+20446|330-54-1||Diuron
+20449|62-73-7||Dichlorvos
+20450|115-32-2||Dicofol
+20453|60-57-1||Dieldrin
+20458|2921-88-2||Chlorpyrifos
+20462|111-46-6||Diethylene glycol
+20465|56-53-1||Diethylstilbestrol
+20479|60-51-5||Dimethoate
+20480|828-00-2||Dimethoxane
+20485|20325-40-0|Removed Cl Cl.|3,3-Dimethoxybenzidine dihydrochloride
+20498|120-61-6||Dimethyl terephthalate
+20501|1095-90-5|Removed Cl.|Methadone hydrochloride
+20507|121-69-7||N,N-Dimethylaniline
+20508|75-60-5|Not supported.|Dimethylarsinic acid
+20510|57-97-6||7,12-Dimethylbenz(a)anthracene
+20512|79-44-7||Dimethylcarbamoyl chloride
+20515|68-12-2||N,N-Dimethylformamide
+20523|51-28-5||2,4-Dinitrophenol
+20528|606-20-2||2,6-Dinitrotoluene (2,6-DNT)
+20529|121-14-2||2,4-Dinitrotoluene (2,4-DNT)
+20537|147-24-0|Removed Cl.|Diphenhydramine hydrochloride
+20541|57-41-0||5,5-Diphenylhydantoin
+20560|115-29-7||Endosulfan
+20561|72-20-8||Endrin
+20570|6381-77-7|Removed Na.|Sodium erythorbate
+20573|50-28-2||17beta-Estradiol
+20576|57-63-6||17alpha-Ethinylestradiol
+20582|91-53-2||Ethoxyquin
+20597|107-21-1||Ethylene glycol
+20601|96-45-7||Ethylene thiourea
+20604|106-87-6||4-Vinyl-1-cyclohexene dioxide
+20605|104-76-7||2-Ethyl-1-hexanol
+20606|103-23-1||Di(2-ethylhexyl) adipate
+20607|117-81-7||Di(2-ethylhexyl) phthalate (DEHP)
+20617|97-53-0||Eugenol
+20620|55-38-9||Fenthion
+20627|86386-73-4||Fluconazole
+20628|2164-17-2||Fluometuron
+20634|51-21-8||5-Fluorouracil
+20647|98-01-1||Furfural
+20653|548-62-9|Removed Cl.|Gentian violet
+20654|105-87-3||Geranyl acetate
+20663|56-81-5||Glycerol
+20666|556-52-5||Glycidol
+20679|76-44-8||Heptachlor
+20685|319-85-7||beta-1,2,3,4,5,6-Hexachlorocyclohexane
+20686|58-89-9||Lindane
+20692|100-97-0||Methenamine
+20699|136-77-6||4-Hexylresorcinol
+20710|122-66-7||1,2-Diphenylhydrazine
+20713|58-93-5||Hydrochlorothiazide
+20716|123-31-9||Hydroquinone
+20730|148-24-3||8-Hydroxyquinoline
+20740|53-86-1||Indomethacin
+20755|54-85-3||Isoniazid
+20759|78-59-1||Isophorone
+20764|101-21-3||Chlorpropham
+20770|143-50-0||Kepone
+20784|75330-75-5||Lovastatin
+20790|1634-78-2||Malaoxon
+20791|121-75-5||Malathion
+20792|123-33-1||Maleic hydrazide
+20794|12427-38-2||Maneb
+20807|149-30-4||2-Mercaptobenzothiazole
+20811|7487-94-7|Not supported. Removed Cl Cl.|Mercuric chloride
+20819|950-37-8||Methidathion
+20820|60-56-0||Methimazole
+20822|59-05-2||Methotrexate
+20827|72-43-5||Methoxychlor
+20845|66-27-3||Methyl methanesulfonate
+20855|298-00-0||Methyl parathion
+20856|872-50-4||N-Methyl-2-pyrrolidone
+20863|41372-08-1||Methyldopa sesquihydrate
+20867|838-88-0||4,4'-Methylenebis(2-methylaniline)
+20869|101-61-1||4,4-Methylenebis(N,N-dimethylaniline)
+20877|90-12-0||1-Methylnaphthalene
+20887|91-62-3||6-Methylquinoline
+20890|56-04-2||6-Methyl-2-thiouracil
+20894|90-94-8||Michlers ketone
+20895|2385-85-5||Mirex
+20910|55-98-1||Busulfan
+20913|91-20-3||Naphthalene
+20916|2243-62-1||1,5-Naphthalenediamine
+20921|91-59-8||2-Naphthylamine
+20930|54-11-5||Nicotine
+20939|139-13-9||Nitrilotriacetic acid
+20941|7632-00-0|Removed Na.|Sodium nitrite
+20943|99-59-2||2-Methoxy-5-nitroaniline
+20944|59-87-0||Nitrofurazone
+20959|99-55-8||2-Methyl-5-nitroaniline
+20961|100-01-6||4-Nitroaniline
+20964|98-95-3||Nitrobenzene
+20966|62-23-7||4-Nitrobenzoic acid
+20970|1836-75-5||Nitrofen
+20972|67-20-9||Nitrofurantoin
+21026|924-16-3||N-Nitrosodibutylamine
+21028|55-18-5||N-Nitrosodiethylamine
+21030|86-30-6||N-Nitrosodiphenylamine
+21032|621-64-7||N-Nitrosodipropylamine
+21086|23135-22-0||Oxamyl
+21094|101-80-4||4,4-Oxydianiline
+21097|2058-46-0|Removed Cl.|Oxytetracycline hydrochloride
+21100|56-38-2||Parathion
+21105|82-68-8||Pentachloronitrobenzene
+21106|87-86-5||Pentachlorophenol
+21123|57-30-7|Removed Na.|Phenobarbital sodium salt
+21124|108-95-2||Phenol
+21125|77-09-8||Phenolphthalein
+21126|92-84-2||Phenothiazine
+21135|842-07-9||C.I. Solvent yellow 14
+21137|108-45-2||1,3-Benzenediamine
+21150|62-38-4|Not supported.|Phenylmercuric acetate
+21151|90-43-7||2-Phenylphenol
+21160|1918-02-1||Picloram
+21164|110-85-0||Piperazine
+21166|51-03-6||Piperonyl butoxide
+21185|53-03-2||Prednisone
+21195|1120-71-4||1,3-Propane sultone
+21196|139-40-2||Propazine
+21201|121-79-9||Propyl gallate
+21206|57-55-6||1,2-Propylene glycol
+21209|51-52-5||6-Propyl-2-thiouracil
+21217|58-14-0||Pyrimethamine
+21218|117-39-5||Quercetin
+21237|50-55-5||Reserpine
+21238|108-46-3||Resorcinol
+21239|302-79-4||trans-Retinoic acid
+21244|13292-46-1||Rifampicin
+21248|83-79-4||Rotenone
+21254|94-59-7||Safrole
+21256|599-79-1||Sulfasalazine
+21268|122-34-9||Simazine
+21277|110-44-1||Sorbic acid
+21286|96-09-3||Styrene oxide
+21288|57-50-1||Sucrose
+21301|54965-24-1||Tamoxifen citrate
+21311|732-26-3||2,4,6-Tris(tert-butyl)phenol
+21322|97-77-8||Disulfiram
+21332|137-26-8||Thiram
+21336|58-55-9||Theophylline
+21337|148-79-8||Thiabendazole
+21358|1156-19-0||Tolazamide
+21378|76-03-9||Trichloroacetic acid
+21385|133-07-3||Folpet
+21386|88-06-2||2,4,6-Trichlorophenol
+21389|52-68-6||Trichlorfon
+21392|102-71-6||Triethanolamine
+21393|112-27-6||Triethylene glycol
+21395|1582-09-8||Trifluralin
+21402|95-63-6||1,2,4-Trimethylbenzene
+21409|76-87-9|Not supported.|Triphenyltin hydroxide
+21411|115-96-8||Tris(2-chloroethyl) phosphate
+21414|78-42-2||Tris(2-ethylhexyl) phosphate
+21419|73-22-3||l-Tryptophan
+21426|57-13-6||Urea
+21427|51-79-6||Urethane
+21440|88-12-0||N-Vinyl-2-pyrrolidone
+21455|1934-21-0|Removed Na Na Na.|FD&C yellow 5
+21456|2783-94-0|Removed Na Na.|FD&C yellow 6
+21464|137-30-4|Removed Zn.|Ziram
+21485|121-91-5||1,3-Benzenedicarboxylic acid
+21515|107-92-6||Butanoic acid
+21519|112-34-5||2-(2-Butoxyethoxy)ethanol
+21544|95-57-8||2-Chlorophenol
+21554|334-48-5||Decanoic acid
+21575|75-99-0||Dalapon
+21600|111-14-8||Heptanoic acid
+21605|124-04-9||Hexanedioic acid
+21607|142-62-1||Hexanoic acid
+21641|112-05-0||Nonanoic acid
+21642|57-11-4||Octadecanoic acid
+21643|124-13-0||Octanal
+21645|124-07-2||Octanoic acid
+21653|110-62-3||Pentanal
+21689|1120-21-4||Undecane
+21717|59-50-7||4-Chloro-3-methylphenol
+21754|77-71-4||5,5-Dimethylhydantoin
+21771|80-46-6||4-(2-Methylbutan-2-yl)phenol
+21774|83-32-9||Acenaphthene
+21780|84-66-2||Diethyl phthalate
+21781|84-74-2||Dibutyl phthalate
+21798|91-22-5||Quinoline
+21800|91-66-7||N,N-Diethylaniline
+21808|95-48-7||2-Methylphenol
+21821|96-29-7||2-Butanone oxime
+21828|98-86-2||Acetophenone
+21831|99-08-1||3-Nitrotoluene
+21832|99-97-8||N,N,4-Trimethylaniline
+21834|100-02-7||4-Nitrophenol
+21837|100-37-8||N,N-Diethylethanolamine
+21848|102-27-2||N-Ethyl-3-methylaniline
+21864|105-67-9||2,4-Dimethylphenol
+21866|105-99-7||Dibutyl hexanedioate
+21869|106-44-5||4-Methylphenol
+21872|106-49-0||4-Methylaniline
+21877|107-07-3||2-Chloroethanol
+21928|111-15-9||2-Ethoxyethyl acetate
+21932|111-42-2||Diethanolamine
+21936|111-69-3||Hexanedinitrile
+21940|111-87-5||1-Octanol
+21941|111-90-0||2-(2-Ethoxyethoxy)ethanol
+21946|112-30-1||1-Decanol
+21947|112-70-9||1-Tridecanol
+21948|114-26-1||Propoxur
+21952|115-86-6||Triphenyl phosphate
+21956|117-84-0||Dioctyl phthalate
+21961|119-61-9||Benzophenone
+21965|120-82-1||1,2,4-Trichlorobenzene
+21969|121-33-5||4-Hydroxy-3-methoxybenzaldehyde
+21975|122-39-4||Diphenylamine
+21976|122-99-6||2-Phenoxyethanol
+21986|126-73-8||Tributyl phosphate
+21992|82385-42-0|Removed Na.|Sodium saccharin hydrate
+21993|132-64-9||Dibenzofuran
+21995|134-62-3||N,N-Diethyl-3-methylbenzamide
+22000|141-43-5||Ethanolamine
+22018|298-04-4||Disulfoton
+22020|314-40-9||Bromacil
+22049|527-60-6||2,4,6-Trimethylphenol
+22053|534-52-1||2-Methyl-4,6-dinitrophenol
+22056|541-73-1||1,3-Dichlorobenzene
+22111|709-98-8||Propanil
+22162|1689-84-5||Bromoxynil
+22174|2104-64-5||O-Ethyl O-(4-nitrophenyl) phenylphosphonothioate
+22179|2176-62-7||Pentachloropyridine
+22187|2416-94-6||2,3,6-Trimethylphenol
+22253|10453-86-8||Resmethrin
+22265|15972-60-8||Alachlor
+22267|16752-77-5||Methomyl
+22292|52645-53-1||Permethrin
+22308|446-72-0||Genistein
+22312|1806-26-4||4-Octylphenol
+22325|2971-36-0||2,2-bis(4-hydroxyphenyl)-1,1,1-trichloroethane
+22331|89-72-5||2-(Butan-2-yl)phenol
+22332|99-71-8||4-(Butan-2-yl)phenol
+22341|1610-18-0||Prometon
+22345|789-02-6||o,p-DDT
+22360|140-66-9||4-(1,1,3,3-Tetramethylbutyl)phenol
+22361|50471-44-8||Vinclozolin
+22370|57-83-0||Progesterone
+22413|97-54-1||isoeugenol
+22422|101-77-9||4,4-Methylenedianiline
+22442|77-40-7||Bisphenol B
+22448|51218-45-2||Metolachlor
+22455|131-11-3||Dimethyl phthalate
+22472|104-51-8||Butylbenzene
+22519|59-30-3||Folic acid
+22522|84-69-5||Diisobutyl phthalate
+22524|50-35-1||Thalidomide
+22527|94-13-3||Propylparaben
+22528|120-47-8||Ethylparaben
+22529|99-76-3||Methylparaben
+22536|599-64-4||4-Cumylphenol
+22588|54-62-6||4-Aminofolic acid
+22731|298-46-4||Carbamazepine
+22777|169590-42-5||Celecoxib
+22817|1260-17-9||Carminic acid
+22828|4291-63-8||Cladribine
+22927|69655-05-6||2,3-Dideoxyinosine
+22959|577-11-7|Removed Na.|Docusate sodium
+22991|114-07-8||Erythromycin
+23235|69-65-8||D-Mannitol
+23412|6153-64-6||Oxytetracycline dihydrate
+23541|65-23-6||Pyridoxine
+23556|68-26-8||Retinol
+23581|79902-63-9||Simvastatin
+23632|87-69-4||L-Tartaric acid
+23645|60-54-8||Tetracycline
+23652|154-42-7||6-Thioguanine
+23719|97322-87-7||Troglitazone
+23733|99-66-1||Valproic acid
+23742|81-81-2||Warfarin
+23792|99-99-0||4-Nitrotoluene
+23796|140-64-7||Pentamidine isethionate
+23819|3056-17-5||2,3-Didehydro-3-deoxythymidine
+23825|1303-11-3|Not supported.|Indium arsenide
+23826|4098-71-9||Isophorone diisocyanate
+23845|208-96-8||Acenaphthylene
+23846|30560-19-1||Acephate
+23848|34256-82-1||Acetochlor
+23864|74223-64-6||Metsulfuron-methyl
+23869|834-12-8||Ametryn
+23871|33089-61-1||Amitraz
+23877|90-04-0||2-Anisidine
+23878|120-12-7||Anthracene
+23881|74115-24-5||Clofentezine
+23889|76578-14-8||Quizalofop-ethyl
+23890|3337-71-1||Asulam
+23892|71751-41-2|Downloaded from chemicalbook.com|Abamectin
+23897|43121-43-3||Triadimefon
+23899|1861-40-1||Benfluralin
+23900|17804-35-2||Benomyl
+23901|25057-89-0||Bentazone
+23902|56-55-3||Benz(a)anthracene
+23907|205-99-2||Benzo(b)fluoranthene
+23914|141-66-2||Dicrotophos
+23927|101-55-3||p-Bromodiphenyl ether
+23936|2008-41-5||Butylate
+23950|55285-14-8||Carbosulfan
+23951|5234-68-4||Carboxin
+23977|95-49-8||2-Chlorotoluene
+23980|64902-72-3||Chlorsulfuron
+23990|21725-46-2||Cyanazine
+23996|108-91-8||Cyclohexylamine
+23998|52315-07-8||Cypermethrin
+23999|66215-27-8||Cyromazine
+24000|1861-32-1||Chlorthal-dimethyl
+24002|39515-41-8||Fenpropathrin
+24018|1918-00-9||Dicamba
+24035|94-82-6||4-(2,4-Dichlorophenoxy)butyric acid
+24045|64-67-5||Diethyl sulfate
+24048|43222-48-6||Difenzoquat metilsulfate
+24051|1445-75-6||Diisopropyl methylphosphonate
+24052|55290-64-7||Dimethipin
+24055|77-78-1||Dimethyl sulfate
+24059|119-93-7||3,3’-Dimethylbenzidine
+24062|95-65-8||3,4-Dimethylphenol
+24063|576-26-1||2,6-Dimethylphenol
+24065|99-65-0||1,3-Dinitrobenzene (DNB)
+24066|528-29-0||1,2-Dinitrobenzene
+24081|145-73-3||Endothal
+24085|16672-87-0||Ethephon
+24086|563-12-2||Ethion
+24087|110-80-5||2-Ethoxyethanol
+24091|759-94-4||S-Ethyl dipropylthiocarbamate
+24097|111-76-2||2-Butoxyethanol
+24101|101200-48-0||Tribenuron-methyl
+24102|22224-92-6||Fenamiphos
+24104|206-44-0||Fluroanthene
+24105|86-73-7||Fluorene
+24107|59756-60-4||Fluridone
+24109|66332-96-5||Flutolanil
+24112|72178-02-0||Fomesafen
+24126|1024-57-3||Heptachlor epoxide
+24143|822-06-0||1,6-Diisocyanatohexane
+24145|51235-04-2||Hexazinone
+24151|35554-44-0||Imazalil
+24152|81335-37-7||Imazaquin
+24154|36734-19-7||Iprodione
+24157|33820-53-0||Isopropalin
+24159|82558-50-7||Isoxaben
+24160|77501-63-4||Lactofen
+24163|330-55-2||Linuron
+24164|83055-99-6||Bensulfuron-methyl
+24170|24307-26-4|Removed Cl.|Mepiquat chloride
+24174|78-48-8||Tribufos
+24175|57837-19-1||Metalaxyl
+24177|10265-92-6||Methamidophos
+24182|109-86-4||2-Methoxyethanol
+24195|94-74-6||2-Methyl-4-chlorophenoxyacetic acid
+24204|21087-64-9||Metribuzin
+24206|2212-67-1||Molinate
+24209|300-76-5||Naled
+24211|15299-99-7||Napropamide
+24216|1929-82-4||Nitrapyrin
+24234|27314-13-2||Norflurazon
+24235|85509-19-9|Not supported.|Flusilazole
+24238|19044-88-3||Oryzalin
+24239|19666-30-9||Oxadiazon
+24241|42874-03-3||Oxyfluorfen
+24242|76738-62-0||Paclobutrazol
+24245|40487-42-1||Pendimethalin
+24254|85-01-8||Phenanthrene
+24259|2310-17-0||Phosalone
+24261|732-11-6||Phosmet
+24266|29232-93-7||Pirimiphos-methyl
+24270|67747-09-5||Prochloraz
+24272|7287-19-6||Prometryn
+24276|2312-35-8||Propargite
+24280|60207-90-1||Propiconazole
+24287|81335-77-5||Imazethapyr
+24289|129-00-0||Pyrene
+24299|78587-05-0||Hexythiazox
+24304|74051-80-2||Sethoxydim
+24315|88671-89-0||Myclobutanil
+24316|34014-18-1||Tebuthiuron
+24317|5902-51-2||Terbacil
+24320|95-94-3||1,2,4,5-Tetrachlorobenzene
+24337|28249-77-6||Thiobencarb
+24338|23564-05-8||Thiophanate-methyl
+24344|2303-17-5||Tri-allate
+24345|82097-50-5||Triasulfuron
+24359|95-95-4||2,4,5-Trichlorophenol
+24368|112-50-5||2-[2-(2-Ethoxyethoxy)ethoxy]ethanol
+24376|1929-77-7||Vernolate
+24431|1646-75-9||Aldicarb oxime
+24436|25956-17-6|Removed Na Na.|Allura red
+24460|60-09-3||4-Aminoazobenzene
+24466|150-13-0||4-Aminobenzoic acid
+24489|2835-95-2||5-Amino-2-methylphenol
+24523|63-05-8||Androstenedione
+24538|1143-38-0||Anthralin
+24621|111-96-6||Bis(2-methoxyethyl) ether
+24652|52-51-7||Bronopol
+24699|614-45-9||tert-Butyl perbenzoate
+24729|10605-21-7||Carbendazim
+24793|2675-77-6||Chloroneb
+24814|106-43-4||4-Chlorotoluene
+24827|69-09-0|Removed Cl.|Chlorpromazine hydrochloride
+24836|5392-40-5||3,7-Dimethyl-2,6-octadienal
+24845|64-86-8||Colchicine
+24869|80-15-9||Cumene hydroperoxide
+24888|6055-19-2||Cyclophosphamide monohydrate
+24891|69-74-9|Removed Cl.|Cytarabine hydrochloride
+24902|533-74-4||Dazomet
+24913|124-18-5||Decane
+24930|496-72-0||3,4-Diaminotoluene
+24955|110-05-4||Di-tert-butyl peroxide (DTBP)
+24985|118-52-5||1,3-Dichloro-5,5-dimethylhydantoin
+24999|99-54-7||3,4-Dichloronitrobenzene
+25010|96-23-1||1,3-Dichloro-2-propanol
+25014|98-87-3||Benzal chloride
+25017|80-43-3||Dicumyl peroxide
+25049|111-77-3||Diethylene glycol monomethyl ether
+25068|84-75-3||Dihexyl phthalate
+25091|119-90-4||3,3-Dimethoxybenzidine
+25096|627-93-0||Dimethyl adipate
+25110|78-63-7||2,5-Dimethyl-2,5-di-(tert-butylperoxy)hexane
+25122|1119-40-0||Dimethyl glutarate
+25132|83-41-0||1,2-Dimethyl-3-nitrobenzene
+25133|99-51-4||1,2-Dimethyl-4-nitrobenzene
+25145|95-87-4||2,5-Dimethylphenol
+25152|106-65-0||Dimethyl succinate
+25178|102-06-7||1,3-Diphenylguanidine
+25219|25155-30-0||Sodium dodecylbenzenesulfonate
+25271|103-69-5||N-Ethyl aniline
+25293|149-57-5||2-Ethylhexanoic acid
+25438|127-07-1||Hydroxyurea
+25453|123-92-2||3-Methylbutyl acetate
+25486|51-30-9|Removed Cl.|Isoproterenol hydrochloride
+25523|118-71-8||Maltol
+25567|134-20-3||Methyl 2-aminobenzoate
+25595|110-26-9||N,N-Methylenebisacrylamide
+25599|6317-18-6||Methylene bis(thiocyanate)
+25607|93-15-2||Methyleugenol
+25659|119-36-8||Methyl salicylate
+25680|4376-20-9||Mono(2-ethylhexyl) phthalate
+25692|123-35-3||Myrcene
+25791|88-72-2||2-Nitrotoluene
+25805|26530-20-1||Octhilinone
+25881|95-54-5||1,2-Phenylenediamine
+25895|101-54-2||N-Phenyl-1,4-benzenediamine
+26029|4418-26-2|Removed Na.|Sodium dehydroacetate
+26031|151-21-3|Removed Na.|Sodium dodecyl sulfate
+26076|1401-55-4|Not supported, too big.|Tannic acid
+26081|79-94-7||3,3’,5,5’-Tetrabromobisphenol A
+26132|83-67-0||Theobromine
+26156|584-84-9||Toluene-2,4-diisocyanate
+26164|95-53-4||2-Methylaniline
+26183|102-82-9||Tributylamine
+26193|87-61-6||1,2,3-Trichlorobenzene
+26214|101-20-2||Triclocarban
+26223|111-21-7||Triethylene glycol, diacetate
+26224|112-49-2||Triethylene glycol dimethyl ether
+26252|101-02-0||Triphenyl phosphite
+26261|13674-87-8||Tris(1,3-dichloro-2-propyl)phosphate
+26262|2451-62-9||Triglycidyl isocyanurate
+26265|3319-31-1||Tris(2-ethylhexyl) trimellitate
+26302|1300-72-7||Sodium xylenesulfonate
+26307|87-62-7||2,6-Dimethylaniline
+26523|87-90-1||Symclosene
+26525|88-18-6||2-tert-Butylphenol
+26529|88-60-8||2-tert-Butyl-5-methylphenol
+26564|94-28-0||Triethylene glycol bis(2-ethylhexanoate)
+26602|96-76-4||2,4-Di-tert-butylphenol
+26640|99-62-7||1,3-Diisopropylbenzene
+26645|99-87-6||p-Cymene
+26665|100-54-9||3-Pyridinecarbonitrile
+26684|101-86-0||2-Benzylideneoctanal
+26689|102-60-3||N,N,N,N-Tetrakis(2-Hydroxypropyl)ethylenediamine
+26691|102-76-1||Triacetin
+26697|103-24-2||Bis(2-ethylhexyl) nonanedioate
+26726|106-22-9||Citronellol
+26727|106-24-1||Geraniol
+26728|106-25-2||(2Z)-3,7-dimethylocta-2,6-dien-1-ol
+26773|107-88-0||1,3-Butanediol
+26781|108-11-2||4-Methyl-2-pentanol
+26792|108-44-1||3-Methylaniline
+26797|108-67-8||1,3,5-Trimethylbenzene
+26864|111-11-5||Methyl octanoate
+26889|111-82-0||Methyl dodecanoate
+26900|112-00-5|Removed Cl.|Dodecyltrimethylammonium chloride
+26908|112-25-4||2-(Hexyloxy)ethanol
+26915|112-42-5||1-Undecanol
+26918|112-53-8||1-Dodecanol
+26926|112-72-1||1-Tetradecanol
+26967|120-55-8||Diethylene glycol dibenzoate
+26974|120-95-6||2,4-Bis(2-methylbutan-2-yl)phenol
+27034|126-11-4||2-(Hydroxymethyl)-2-nitro-1,3-propanediol
+27041|126-86-3||2,4,7,9-Tetramethyl-5-decyne-4,7-diol
+27047|127-51-5||3-Buten-2-one, 3-methyl-4-(2,6,6-trimethyl-2-cyclohexen-1-yl)-
+27050|128-04-1|Removed Na.|Sodium dimethyldithiocarbamate
+27052|128-39-2||2,6-Di-tert-butylphenol
+27131|288-88-0||1H-1,2,4-Triazole
+27195|544-76-3||Hexadecane
+27200|553-26-4||4,4-Bipyridine
+27204|556-61-6||Methyl isothiocyanate
+27205|556-67-2|Not supported.|Octamethylcyclotetrasiloxane
+27218|579-66-8||2,6-Diethylaniline
+27236|602-01-7||2,3-Dinitrotoluene (2,3-DNT)
+27263|628-63-7||Pentyl acetate
+27268|629-62-9||Pentadecane
+27270|629-76-5||1-Pentadecanol
+27320|824-78-2|Removed Na.|Sodium 4-nitrophenolate
+27397|1338-43-8||Sorbitan
+27403|1461-22-9|Not supported.|Tributyltin chloride
+27441|1843-05-6||2-Hydroxy-4-octyloxybenzophenone
+27494|2687-25-4||3-Methylbenzene-1,2-diamine
+27522|3147-75-9||Octrizole
+27581|4904-61-4||1,5,9-Cyclododecatriene
+27593|5216-25-1||4-Chlorobenzotrichloride
+27608|5915-41-3||Terbuthylazine
+27625|6422-86-2||Bis(2-ethylhexyl) terephthalate
+27635|6846-50-0||2,2,4-Trimethyl-1,3-pentanediol diisobutyrate
+27640|6915-15-7||2-Hydroxybutanedioic acid
+27856|25265-71-8||Dipropylene glycol
+27921|27138-31-4||Dipropylene glycol dibenzoate
+27923|27176-87-0||4-Dodecylbenzenesulfonic acid
+27924|27178-16-1||Diisodecyl adipate
+27932|27323-41-7|Removed triethanolamine|Dodecylbenzene sulfonate triethanolamine (1:1)
+27955|29590-42-9||Isooctyl acrylate
+27982|33703-08-1||Hexanedioic acid, diisononyl ester
+27983|34590-94-8||Propanol, 1(or 2)-(2-methoxymethylethoxy)-
+27991|36653-82-4||1-Hexadecanol
+28033|53894-23-8||Triisononyl trimellitate
+28038|55406-53-6||3-Iodo-2-propynyl-N-butylcarbamate
+28666|68515-49-1||1,2-Benzenedicarboxylic acid, di-C9-11-branched alkyl esters, C10-rich
+29055|84852-15-3||4-Nonylphenol, branched
+29145|108-59-8||Dimethyl malonate
+29221|1702-17-6||Clopyralid
+29241|2772-45-4||2,4-Bis(1-methyl-1-phenylethyl)phenol
+29289|7747-35-5||5-Ethyl-1-aza-3,7-dioxabicyclo[3.3.0]octane
+29329|25498-49-1||Tripropylene glycol monomethyl ether
+29600|79-39-0||Methacrylamide
+29871|23593-75-1||Clotrimazole
+29874|49562-28-9||Fenofibrate
+29879|65277-42-1||Ketoconazole
+29904|678-39-7||1,1,2,2-Tetrahydroperfluoro-1-decanol
+30698|10016-20-3||alpha-Cyclodextrin
+31131|131-18-0||Dipentyl phthalate
+31860|335-76-2||Perfluorodecanoic acid
+31862|307-24-4||Perfluorohexanoic acid
+31863|375-95-1||Perfluorononanoic acid
+31864|1763-23-1||Perfluorooctane sulfonic acid (PFOS)
+31865|335-67-1||Perfluorooctanoic acid (PFOA)
+32004|13311-84-7||Flutamide
+32113|107534-96-3||Tebuconazole
+32327|22781-23-3||Bendiocarb
+32329|741-58-2||Bensulide
+32337|33629-47-9||Butralin
+32344|54593-83-8||Chlorethoxyfos
+32352|5598-13-0||Chlorpyrifos-methyl
+32354|105512-06-9||Clodinafop-propargyl
+32355|81777-89-1||Clomazone
+32356|1134-23-2||Cycloate
+32358|57966-95-7||Cymoxanil
+32359|121552-61-2||Cyprodinil
+32361|10222-01-2||2,2-Dibromo-3-nitrilopropionamide
+32365|1194-65-6||Dichlobenil
+32372|119446-68-3||Difenoconazole
+32376|87674-68-8||Dimethenamid
+32379|97886-45-8||Dithiopyr
+32386|55283-68-6||Ethalfluralin
+32390|60168-88-9||Fenarimol
+32392|66441-23-4||Fenoxaprop-ethyl
+32393|72490-01-8||Fenoxycarb
+32398|131341-86-1||Fludioxonil
+32405|23422-53-9|Removed Cl.|Formetanate hydrochloride
+32424|104206-82-8||Mesotrione
+32442|138261-41-3||Imidacloprid
+32459|298-02-2||Phorate
+32463|86209-51-0||Primisulfuron-methyl
+32464|41198-08-7||Profenofos
+32470|31218-83-4||Propetamphos
+32482|96182-53-5||Tebupirimfos
+32488|117718-60-2||Thiazopyr
+32493|55219-65-3||Triadimenol
+32497|55335-06-3||Triclopyr
+32498|3380-34-5||Triclosan
+32500|68694-11-1||Triflumizole
+32502|126535-15-7||Triflusulfuron-methyl
+32514|643-79-8||1,2-Benzenedicarboxaldehyde
+32519|135158-54-2||Acibenzolar-S-methyl
+32520|131860-33-8||Azoxystrobin
+32523|2634-33-5||1,2-Benzisothiazolin-3-one
+32525|149877-41-8||Bifenazate
+32532|128639-02-1||Carfentrazone-ethyl
+32537|7173-51-5|Removed Cl.|Didecyldimethylammonium chloride
+32544|136-45-8||Dipropyl pyridine-2,5-dicarboxylate
+32547|2593-15-9||Etridiazole
+32548|114369-43-6||Fenbuconazole
+32549|126833-17-8||Fenhexamid
+32550|111812-58-9||Fenpyroximate (Z,E)
+32551|79622-59-6||Fluazinam
+32552|142459-58-3||Flufenacet
+32553|62924-70-3||Flumetralin
+32554|87546-18-7||Flumiclorac-pentyl
+32555|103361-09-7||Flumioxazin
+32556|117337-19-6||Fluthiacet-methyl
+32562|113-48-4||MGK-264
+32569|23103-98-2||Pirimicarb
+32572|23031-36-9||Prallethrin
+32573|96489-71-3||Pyridaben
+32577|79538-32-2||Tefluthrin
+32578|59669-26-0||Thiodicarb
+32580|141517-21-7||Trifloxystrobin
+32581|156052-68-5||Zoxamide
+32600|113136-77-9||Cyclanilide
+32601|94361-06-5||Cyproconazole
+32605|51338-27-3||Diclofop-methyl
+32610|80844-07-1||Etofenprox
+32611|13194-48-4||Ethoprop
+32613|122-14-5||Fenitrothion
+32615|98967-40-9||Flumetsulam
+32620|86479-06-3||Hexaflumuron
+32628|161050-58-4||Methoxyfenozide
+32637|123312-89-0||Pymetrozine
+32638|175013-18-0||Pyraclostrobin
+32640|95737-68-1||Pyriproxyfen
+32641|84087-01-4||Quinclorac
+32642|122931-48-0||Rimsulfuron
+32645|122836-35-5||Sulfentrazone
+32646|4151-50-2||Sulfluramid
+32647|21564-17-0||2-(Thiocyanomethylthio)benzothiazole
+32649|7696-12-0||Tetramethrin
+32651|51707-55-2||Thidiazuron
+32655|131983-72-7||Triticonazole
+32667|66230-04-4||Esfenvalerate
+32673|123343-16-8|Removed Na.|Pyrithiobac-sodium
+32683|7786-34-7||Mevinphos
+32690|173584-44-6||Indoxacarb
+33058|584-13-4||4-Amino-1,2,4-triazole
+34150|52-86-8||Haloperidol
+34187|10540-29-1||Tamoxifen
+34210|29091-21-2||Prodiamine
+34212|118134-30-8||Spiroxamine
+34223|119168-77-3||Tebufenpyrad
+34227|119515-38-7||Icaridin
+34232|101-10-0||Cloprop
+34252|149979-41-9||Tepraloxydim
+34265|57754-85-5||Clopyralid-olamine
+34270|104098-48-8||Imazapic
+34286|26172-55-4||5-Chloro-2-methyl-3(2H)-isothiazolone
+34287|104-67-6||5-Heptyldihydro-2(3H)-furanone
+34300|135410-20-7||Acetamiprid
+34303|81406-37-3||Fluroxypyr-meptyl
+34364|144651-06-9||Oxasulfuron
+34365|134605-64-4||Butafenacil
+34392|188425-85-6||Boscalid
+34401|69327-76-0||Buprofezin
+34402|23184-66-9||Butachlor
+34456|87818-31-3||Cinmethylin
+34465|210880-92-5||Clothianidin
+34490|420-04-2||Cyanamide
+34492|120116-88-3||Cyazofamid
+34496|127277-53-6|Removed Ca.|Prohexadione-calcium
+34503|122008-85-9||Cyhalofop-butyl
+34528|145701-21-9||Diclosulam
+34545|110488-70-5||Dimethomorph
+34566|155569-91-8|Downloaded from chemicalbook.com. Removed benzoate.|Emamectin benzoate
+34573|97780-06-8||Ethametsulfuron-methyl
+34580|26225-79-6||Ethofumesate
+34586|153233-91-1||Etoxazole
+34588|131807-57-3||Famoxadone
+34590|161326-34-7||Fenamidone
+34609|120068-37-3||Fipronil
+34612|69806-50-4||Fluazifop-butyl
+34618|188489-07-8||Flufenpyr-ethyl
+34625|361377-29-9||Fluoxastrobin
+34627|69377-81-7||Fluroxypyr
+34634|68157-60-8||Forchlorfenuron
+34650|100784-20-1||Halosulfuron-methyl
+34653|79983-71-4||Hexaconazole
+34664|114311-32-9||Imazamox
+34665|81334-34-1||Imazapyr
+34673|144550-36-7|Removed Na.|Iodosulfuron-methyl-sodium
+34676|42509-80-8||Isazofos
+34695|8018-01-7|Removed Zn.|Mancozeb
+34712|208465-21-8||Mesosulfuron-methyl
+34723|141112-29-0||Isoxaflutole
+34737|9006-42-2||Metiram
+34742|NOCAS_34742|Downloaded Milbemycin A3 from chemspider.com. CAS 51570-36-6|Milbemectin (mixture of >=70% Milbemcin A4, & <=30% Milbemycin A3)
+34753|173159-57-4||Foramsulfuron
+34773|116714-46-6||Novaluron
+34803|219714-96-2||Penoxsulam
+34816|6923-22-4||Monocrotophos
+34818|35575-96-3||Azamethiphos
+34849|25606-41-1|Removed Cl.|Propamocarb hydrochloride
+34855|79241-46-6||Fluazifop-P-butyl
+34864|181274-15-7|Removed Na.|Propoxycarbazone-sodium
+34868|94125-34-5||Prosulfuron
+34871|129630-19-9||Pyraflufen-ethyl
+34872|1698-60-8||Chloridazon
+34877|53112-28-0||Pyrimethanil
+34881|124495-18-7||Quinoxyfen
+34928|148477-71-8||Spirodiclofen
+34930|98886-44-3||Fosthiazate
+34948|112410-23-8||Tebufenozide
+34956|112281-77-3||Tetraconazole
+34961|111988-49-9||Thiacloprid
+34962|153719-23-4||Thiamethoxam
+34972|89-83-8||Thymol
+34973|87820-88-0||Tralkoxydim
+35001|112-38-9||10-Undecenoic acid
+35152|116-25-6||1-(Hydroxymethyl)-5,5-dimethylhydantoin
+35180|584-79-2||d-cis,trans-Allethrin
+35204|2155-70-6|Not supported.|Tributyltin methacrylate
+35341|77-48-5||1,3-Dibromo-5,5-dimethylhydantoin
+35957|68359-37-5||Cyfluthrin
+36299|7378-99-6||N,N-Dimethyloctylamine
+36690|141-04-8||Diisobutyl adipate
+37185|19774-82-4|Removed Cl.|Amiodarone hydrochloride
+37208|15307-79-6|Removed Na.|Diclofenac sodium
+37303|375-85-9||Perfluoroheptanoic acid
+37495|1007-28-9||Deisopropylatrazine
+37523|962-58-3||Diazoxon
+37706|2795-39-3|Removed K.|Potassium perfluorooctanesulfonate
+37707|29420-49-3|Removed K.|Potassium nonafluoro-1-butanesulfonate
+37708|3825-26-1||Ammonium perfluorooctanoate
+37709|3871-99-6|Removed K.|Potassium perfluorohexanesulfonate
+37712|27955-94-8||4,4’,4''-Ethane-1,1,1-triyltriphenol
+37752|744-45-6||Diphenyl isophthalate
+38298|5315-79-7||1-Hydroxypyrene
+38321|3739-38-6||3-Phenoxybenzoic acid
+38666|5598-15-2||Chlorpyrifos oxon
+38732|123-25-1||Diethyl butanedioate
+38939|754-91-6||Perfluorooctanesulfonamide
+39223|116-06-3||Aldicarb
+39336|28434-00-6||S-Bioallethrin
+40001|4376-18-5||Monomethyl phthalate
+40002|131-70-4||Monobutyl phthalate
+40111|105-54-4||Ethyl butyrate
+40112|106-30-9||Ethyl heptanoate
+40222|199119-58-9|Removed Na.|Trifloxysulfuron-sodium
+40361|6734-80-1|Removed Na.|Methan-sodium hydrate
+40362|50-65-7||Niclosamide
+40363|83657-24-3||Diniconazole
+40371|140-56-7|Removed Na.|Fenaminosulf
+40694|136-60-7||Butyl benzoate
+40701|77-93-0||Triethyl citrate
+40713|1034-01-1||Octyl gallate
+40742|124-94-7||Triamcinolone
+40755|113776-20-8||Fenoxaprop-(2S)-ethyl
+40788|121-00-6||2-tert-Butyl-4-methoxyphenol
+41097|85532-75-8||PK11195
+41248|88-58-4||2,5-Di-tert-butylbenzene-1,4-diol
+41376|24602-86-6||Tridemorph
+41623|15310-01-7||Benodanil
+41691|35256-85-0||Butam
+41847|109-43-3||Dibutyl decanedioate
+42059|106-27-4||Isopentyl butyrate
+42121|110235-47-7||Mepanipyrim
+42209|4455-26-9||N-Methyldioctylamine
+42219|103-65-1||Propylbenzene
+42390|3811-73-2|Removed Na.|Sodium (2-pyridylthio)-N-oxide
+42400|1120-01-0|Removed Na.|Sodium hexyldecyl sulfate
+42416|1191-50-0|Removed Na.|Sodium tetradecyl sulfate
+42423|126-14-7||Sucrose octaacetate
+43709|4449-51-8||Cyclopamine
+43938|2528-16-7||Monobenzyl phthalate
+44203|112529-15-4|Removed Cl.|Pioglitazone hydrochloride
+44337|NOCAS_44337|Removed Br Br.|Diquat dibromide D4
+44493|23779-32-0|Not supported.|1-[3-(Triethoxysilyl)propyl]urea
+44564|3855-32-1||N-[3-(Dimethylamino)propyl]-N,N,N-trimethylpropane-1,3-diamine
+44572|647-42-7||3,3,4,4,5,5,6,6,7,7,8,8,8-Tridecafluorooctan-1-ol
+44581|96-70-8||2-tert-Butyl-4-ethylphenol
+44643|3033-77-0|Removed Cl.|N,N,N-Trimethyl(oxiran-2-yl)methanaminium chloride
+46970|105624-86-0||5HPP-33
+47138|98-06-6||tert-Butylbenzene
+47167|79-16-3||N-Methylacetamide
+47246|139340-56-0||Darbufelone mesylate
+47248|NOCAS_47248||N-[(3R)-9-methyl-4-oxo-1-phenyl-3,4,6,7-tetrahydro[1,4]diazepino[6,7,1-hi]indol-3-yl]pyridine-4-carboxamide
+47249|221246-12-4|Removed K.|Fandosentan potassium salt
+47251|145742-28-5||CP-122721 pharma
+47252|186392-65-4||Ingliforib
+47253|199171-88-5||cis-4-cyano-4-(1-cyclohexyl-3-ethyl-1H-indazol-6-yl)cyclohexanecarboxylic acid
+47254|220860-50-4||CP-457920 pharma
+47255|NOCAS_47255|Removed Na.|sodium {[2,6-di(propan-2-yl)phenyl]carbamoyl}{[4-(2-hydroxypropan-2-yl)furan-2-yl]sulfonyl}azanide
+47257|127308-82-1||Zamifenacin pharma
+47258|124378-77-4||Enadoline (pharma)
+47259|149062-75-9|Removed Cl.|1,3-dichloro-6,7,8,9,10,12-hexahydroazepino[2,1-b]quinazoline hydrochloride (1:1) (pharma)
+47261|177785-47-6||(2S,3S)-3-methyl-2-(3-oxo-1,2-benzothiazol-2(3H)-yl)pentanoic acid
+47262|207736-05-8||(6S)-6-[2-(4-aminophenyl)ethyl]-3-{[2-tert-butyl-4-(hydroxymethyl)-5-methylphenyl]sulfanyl}-4-hydroxy-6-(propan-2-yl)-5,6-dihydro-2H-pyran-2-one
+47263|349495-42-7||1-ethyl-5-(4-hydroxyphenyl)-3-methyl-6,7-dihydropyrazolo[4,3-e][1,4]diazepin-8(1H)-one
+47264|171866-31-2||(3R,4S)-3-[4-(4-fluorophenyl)-4-hydroxypiperidin-1-yl]-3,4-dihydro-2H-chromene-4,7-diol
+47265|NOCAS_47265||CP-471358 pharma
+47266|230954-09-3||CP-544439 pharma
+47267|NOCAS_47267||(1R)-1-{4-[(2R,6S)-4-(4,6-dimethyl-1,3,5-triazin-2-yl)-2,6-dimethylpiperazin-1-yl]pyrimidin-2-yl}ethanol
+47268|104795-68-8|Removed Na.|sodium 5-({[5-methoxy-3-(propan-2-yloxy)-1-benzothiophen-2-yl]carbonyl}amino)tetrazol-1-ide
+47270|253450-09-8||Besonprodil
+47271|676116-04-4||6-{2-[4-(1,2-benzothiazol-3-yl)piperazin-1-yl]ethyl}-4,4,8-trimethyl-3,4-dihydroquinolin-2(1H)-one methanesulfonate (pharma)
+47272|249296-43-3||4-(3-{[4-(2-methyl-1H-imidazol-1-yl)phenyl]sulfanyl}phenyl)tetrahydro-2H-pyran-4-carboxamide methanesulfonate (pharma)
+47274|113734-18-2||{4-[2-({2-hydroxy-2-[2-(trifluoromethyl)-1,3-thiazol-4-yl]ethyl}amino)propyl]phenoxy}acetic acid
+47276|194098-25-4||N-{4-[(methylamino)methyl]phenyl}-4-oxo-4,5,6,7-tetrahydro-1H-indole-3-carboxamide
+47277|361343-19-3||Elzasonan (CP-448187 pharma)
+47278|214535-77-0||2-(4-fluorophenoxy)-N-[4-(2-hydroxypropan-2-yl)benzyl]pyridine-3-carboxamide (pharma)
+47279|261947-38-0||propan-2-yl (2R,4S)-4-{acetyl[3,5-bis(trifluoromethyl)benzyl]amino}-2-ethyl-6-(trifluoromethyl)-3,4-dihydroquinoline-1(2H)-carboxylate
+47280|289716-94-5||1-[2-(3,4-dichlorophenoxy)-5-fluorophenyl]-N-methylmethanamine (pharma)
+47281|353280-07-6||3-pyridinecarboxamide, 2-(2,1,3-benzoxadiazol-5-yloxy)-N-[[4-(1-hydroxy-1-methylethyl)phenyl]methyl]- (pharma)
+47282|445295-04-5||(2R)-2-{4-[({[2-(1,3-benzodioxol-5-yloxy)pyridin-3-yl]carbonyl}amino)methyl]-3-fluorophenoxy}propanoic acid
+47283|368832-42-2||CP-728663 (pharma)
+47284|478149-53-0||PHA-00543613 pharma
+47285|527680-56-4||N-[(3R)-1-azabicyclo[2.2.2]oct-3-yl]-2,3-dihydro-1,4-benzodioxine-6-carboxamide
+47286|123122-55-4||Candoxatril
+47287|197077-55-7||6,7-dichloro-5-[3-(methoxymethyl)-5-(1-oxidopyridin-3-yl)-4H-1,2,4-triazol-4-yl]-1,4-dihydroquinoxaline-2,3-dione
+47288|203942-49-8||1-[(3S)-4-[{[3,5-bis(trifluoromethyl)phenyl]carbonyl}(methyl)amino]-3-(3,4-dichlorophenyl)butyl]-4-cyclohexyl-1-azoniabicyclo[2.2.2]octane methanesulfonate
+47289|215297-27-1||3-ethyl-5-{5-[(4-ethylpiperazin-1-yl)sulfonyl]-2-propoxyphenyl}-2-(pyridin-2-ylmethyl)-2,6-dihydro-7H-pyrazolo[4,3-d]pyrimidin-7-one
+47290|402910-27-4||UK-416244 pharma
+47291|NOCAS_47291||N-[(3R)-9-amino-4-oxo-1-phenyl-3,4,6,7-tetrahydro[1,4]diazepino[6,7,1-hi]indol-3-yl]pyridine-3-carboxamide
+47292|NOCAS_47292|Removed Cl.|3-{[1-(aminomethyl)cyclohexyl]methyl}-1,2,4-oxadiazol-5(4H)-one hydrochloride
+47294|668981-02-0||6-[4-(2,5-difluorophenyl)-1,3-oxazol-5-yl]-3-(propan-2-yl)[1,2,4]triazolo[4,3-a]pyridine
+47295|291305-06-1||(5S,8S)-5-(3,4-dichlorophenyl)-8-(methylamino)-5,6,7,8-tetrahydronaphthalene-2-sulfonamide
+47296|112733-06-9||Zenarestat
+47297|134002-60-1||3-({(3R,4R)-6-[(5-fluoro-1,3-benzothiazol-2-yl)methoxy]-4-hydroxy-3,4-dihydro-2H-chromen-3-yl}methyl)benzoic acid (pharma)
+47299|NOCAS_47299||1-[cis-1-(3-ethoxyphenyl)-4-methylcyclohexyl]-4-phenylpiperazine methanesulfonate (1:1) (pharma)
+47301|210826-40-7||CP-456773 pharma
+47303|179465-71-5||1-{(1S,4R)-4-[3-(4-fluorophenoxy)phenoxy]cyclopent-2-en-1-yl}-1-hydroxyurea
+47304|135080-03-4||6-chloro-3-[(4-chlorothiophen-2-yl)carbonyl]-5-fluoro-2-oxo-2,3-dihydro-1H-indole-1-carboxamide
+47305|NOCAS_47305||(2S,3S,4R,5R)-3-amino-5-[6-({5-chloro-2-[(3-methyl-1,2-oxazol-5-yl)methoxy]benzyl}amino)-9H-purin-9-yl]-4-hydroxy-N-methyltetrahydrofuran-2-carboxamide (non-preferred name)
+47306|290352-28-2||({4-[(7-hydroxy-2,3-dihydro-1H-inden-4-yl)oxy]-3,5-dimethylphenyl}amino)(oxo)acetic acid
+47307|501027-49-2||3-{4-[2-(5-methyl-2-phenyl-1,3-oxazol-4-yl)ethoxy]-1H-indol-1-yl}propanoic acid
+47308|158081-99-3||CP-105696 pharma
+47309|162706-14-1||5-[2-methyl-3-(pyridin-3-yl)-1H-indol-1-yl]pentanoic acid
+47310|196808-45-4||Farglitazar
+47311|NOCAS_47311||GSK163929B pharma
+47312|864283-48-7||N2-[4-cyano-3-(trifluoromethyl)phenyl]-N2-(2,2,2-trifluoroethyl)glycinamide
+47313|263553-33-9||N-ethyl-3-methyl-N-(propan-2-yl)-5-{[(2S)-2-(pyridin-4-ylamino)propyl]oxy}benzamide 4-methylbenzenesulfonate
+47315|444610-91-7||(2-ethyl-4-{[(4-{[4-(4-methoxyphenyl)piperazin-1-yl]methyl}-2-[4-(trifluoromethyl)phenyl]-1,3-thiazol-5-yl)methyl]sulfanyl}phenoxy)acetic acid
+47316|461023-63-2|Removed Cl.|Aplaviroc hydrochloride
+47318|139149-55-6||1-[(3S)-6-(benzyloxy)-2,3-dihydro-1-benzofuran-3-yl]-1-hydroxyurea
+47319|184653-84-7||Carabersat
+47320|180084-01-9|Removed Cl.|SB236057A pharma
+47322|200940-23-4|Removed Cl.|SB243213A pharma
+47324|219790-72-4||2-[4-(4-fluorophenyl)-5-(2-phenoxypyrimidin-4-yl)-1H-imidazol-1-yl]propane-1,3-diol
+47325|NOCAS_47325|Removed Cl.|(2E)-3-(4-fluorophenyl)-N-(4-{2-[7-(5-methyl-1,2,4-oxadiazol-3-yl)-1,2,4,5-tetrahydro-3H-3-benzazepin-3-yl]ethyl}cyclohexyl)prop-2-enamide hydrochloride
+47327|313994-79-5||N-[(1R,3S,4S)-3-{[4-(3-benzyl-1-ethyl-1H-pyrazol-5-yl)piperidin-1-yl]methyl}-4-(3-fluorophenyl)cyclopentyl]-N-methyl-D-valine
+47328|NOCAS_47328|Removed K.|potassium 5-carbamoyl-3-[5-fluoro-2-(2,2,3,3,3-pentafluoropropoxy)biphenyl-3-yl]-1,2,4-triazol-1-ide hydrate
+47330|NOCAS_47330||2,6-difluoro-5-[3-(2-hydroxypropan-2-yl)imidazo[1,2-b][1,2,4]triazin-7-yl]biphenyl-2-carbonitrile (pharma)
+47331|331623-06-4|Removed Na Na.|disodium (5S,6R,7R)-5-(1,3-benzodioxol-5-yl)-2-butyl-7-{2-[(2S)-2-carboxylatopropyl]-4-methoxyphenyl}-6,7-dihydro-5H-cyclopenta[b]pyridine-6-carboxylate (pharma)
+47333|NOCAS_47333||(3S)-3-(2-methylpyrimidin-5-yl)-9-(5,6,7,8-tetrahydro-1,8-naphthyridin-2-yl)nonanoic acid
+47334|NOCAS_47334||N-{trans-4-[(2R)-2-fluoro-2-(2-fluorophenyl)ethoxy]cyclohexyl}-5H-pyrazolo[3,4-d]pyrimidin-4-amine
+47335|851916-42-2||1,5-anhydro-2,3-dideoxy-4-O-methyl-3-{[(1R,3S)-3-(propan-2-yl)-3-{[3-(trifluoromethyl)-7,8-dihydro-1,6-naphthyridin-6(5H)-yl]carbonyl}cyclopentyl]ammonio}-D-erythro-pentitol 3-carboxypropanoate
+47337|1061517-62-1|Removed Na.|sodium 3-(4-{[1-(3-ethoxyphenyl)-2-(4-methylphenyl)-1H-imidazol-4-yl]carbonyl}piperazin-1-yl)naphthalene-1-carboxylate (pharma)
+47338|NOCAS_47338||6-chloro-2-phenyl-8,8a-dihydro-3aH-indeno[1,2-d][1,3]thiazol-3a-ol (pharma)
+47339|181640-09-5|Removed Cl.|SR144190 pharma
+47341|264618-44-2||3-(1-{3-[(3S)-1-benzoyl-3-(3,4-dichlorophenyl)piperidin-3-yl]propyl}-4-phenylpiperidin-4-yl)-1,1-dimethylurea
+47342|NOCAS_47342|Removed Cl.|SSR125047 pharma
+47344|159138-81-5||Cariporide mesylate (HOE642)
+47346|NOCAS_47346||(2S)-4,4-difluoro-1-{N-[8-(pyrimidin-2-yl)-8-azabicyclo[3.2.1]oct-3-yl]glycyl}pyrrolidine-2-carbonitrile
+47347|155990-20-8||SR271425 pharma
+47348|742693-38-5||2-chloro-N-{(S)-phenyl[(2S)-piperidin-2-yl]methyl}-3-(trifluoromethyl)benzamide
+47349|NOCAS_47349|Removed Cl.|AVE8488 pharma
+47351|NOCAS_47351|Removed Cl.|SSR240612 pharma
+47353|NOCAS_47353|Removed Cl.|SSR241586 pharma
+47355|189003-92-7||Trelanserin (SL650472 pharma)
+47356|473289-62-2||Ilepatril
+47357|288104-79-0||Surinabant
+47358|439687-69-1||Nelivaptan
+47359|298198-52-4||4-bromophenyl 1,4-diazabicyclo[3.2.2]nonane-4-carboxylate
+47360|929601-09-2|Removed Cl.|ethyl [(7-{[2-(3-chlorophenyl)-2-hydroxyethyl]amino}-5,6,7,8-tetrahydronaphthalen-2-yl)oxy]acetate hydrochloride
+47362|NOCAS_47362||SSR150106 pharma
+47363|139290-65-6||Volinanserin (pharma)
+47364|NOCAS_47364|Removed Cl.|SSR103800 pharma
+47366|NOCAS_47366||5-fluoro-1-(3-fluorobenzyl)-N-(1H-indol-5-yl)-1H-indole-2-carboxamide
+47367|328392-46-7||5-(benzylsulfonyl)-2-{[2-(dimethylamino)ethyl](ethyl)amino}-N,N-diethyl-4-(4-phenylpiperidin-1-yl)benzamide (pharma)
+47368|344930-95-6||2-{[6-methoxy-1,1-dioxido-3-oxo-4-(propan-2-yl)-1,2-benzothiazol-2(3H)-yl]methoxy}-9-[2-(piperidin-1-yl)ethoxy]-4H-pyrido[1,2-a]pyrimidin-4-one
+47369|221671-62-1||(2-{[4-(4-chloro-2,5-dimethoxyphenyl)-5-(2-cyclohexylethyl)-1,3-thiazol-2-yl]carbamoyl}-5,7-dimethyl-1H-indol-1-yl)acetic acid trifluoroacetate
+47371|725228-45-5||{4-[3-(aminomethyl)phenyl]piperidin-1-yl}{5-[(2-fluorophenyl)ethynyl]furan-2-yl}methanone (pharma)
+47372|478263-98-8|Removed Na.|sodium (4-fluoro-2-{[(1S)-1-phenylpropyl]carbamoyl}phenyl)(quinolin-8-ylsulfonyl)azanide
+47374|NOCAS_47374||N-[4-(benzylamino)-3-cyanoquinolin-2-yl]-4-methoxybenzamide
+47375|862243-29-6||1-(2-carboxyphenyl)-7-chloro-6-[(2-chloro-4,6-difluorophenyl)amino]-4-oxo-1,4-dihydroquinoline-3-carboxylic acid
+47376|648917-13-9||1-[2-({[(2-chloro-4,5-difluorophenyl)carbonyl]carbamoyl}amino)-4-fluorophenyl]piperidine-4-carboxylic acid
+47377|NOCAS_47377|Removed Cl.|(1R)-1-[(ethoxycarbonyl)oxy]ethyl 1-{[5-(5-chlorothiophen-2-yl)-1,2-oxazol-3-yl]methyl}-2-{[1-(propan-2-yl)piperidin-4-yl]carbamoyl}-1H-indole-5-carboxylate hydrochloride (pharma)
+47379|NOCAS_47379|Removed Cl.|3-chloro-2-[(3R)-5-chloro-1-(2,4-dimethoxybenzyl)-3-methyl-2-oxo-2,3-dihydro-1H-indol-3-yl]-N-ethyl-N-(pyridin-3-ylmethyl)benzamide hydrochloride
+47381|NOCAS_47381|Removed Cl.|{4-[5-(aminomethyl)-2-fluorophenyl]piperidin-1-yl}(4-bromo-3-methyl-5-propoxythiophen-2-yl)methanone hydrochloride
+47383|NOCAS_47383|Removed Na.|sodium 1-{[5-(5-chlorothiophen-2-yl)-1,2-oxazol-3-yl]methyl}-2-[(1-cyclopropylpiperidin-4-yl)carbamoyl]-1H-benzimidazole-5-carboxylate
+47385|NOCAS_47385||1-{2-[(5-chloropyridin-2-yl)amino]-2-oxoethyl}-5-(2-methoxyethoxy)-N-[1-(propan-2-yl)piperidin-4-yl]-1H-pyrrolo[2,3-c]pyridine-2-carboxamide acetate
+47387|NOCAS_47387||SAR102779 pharma
+47389|NOCAS_47389|Removed Cl.|SAR150640 pharma
+47391|1068967-96-3||N-(5-fluoro-3-methyl-1H-indol-1-yl)-4-methyl-2-(pyridin-2-yl)pyrimidine-5-carboxamide
+47394|330198-91-9||Fully acetylated glycerol monoester on 12-Hydroxystearic acid (85 percent); Fully acetylated glycerol monostearate represents (10 percent)
+47395|166412-78-8||1,2-cyclohexane dicarboxylic acid dinonyl ester branched and linear
+47456|826-62-0||4,7-Methanoisobenzofuran-1,3-dione, 3A,4,7,7A-tetrahydro-
+47525|81131-70-6|Removed Na.|Pravastatin sodium
+47526|91082-17-6||C10-21 sulfonic acids phenyl esters
+47527|66456-53-9|Not supported, polymer.|Adipic acid, polypropyleneglycol, laurate
+47528|58394-64-2||Benzyloctyl adipate
+47533|89-04-3||Tri (n-octyl) Trimellitate
+47535|82469-79-2||Butyryl trihexyl citrate
+47537|2432-87-3||Dioctyl succinate
+47538|6624-73-3||Pentane-1,5-diyl dibenzoate
+47539|22915-73-7||Hexane-1,6-diyl dibenzoate
+47540|6344-67-8||3-Hydroxyfluorene
+47542|117428-22-5||Picoxystrobin
+47553|2058-94-8||Perfluoroundecanoic acid
+47558|2144-53-8||3,3,4,4,5,5,6,6,7,7,8,8,8-Tridecafluorooctyl methacrylate
+47565|2043-57-4||1H,1H,2H,2H-Perfluorooctyl iodide
+47576|486-56-6||Cotinine
+47592|484-17-3||9-Phenanthrol
+47598|41481-66-7||4,4'-Sulfonylbis[2-(prop-2-en-1-yl)phenol]
+47628|2550-40-5||Dicyclohexyl disulfide

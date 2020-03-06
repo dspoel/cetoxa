@@ -1,0 +1,81 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_6  and  N_14 
+REMARK    2  A    between atoms: C_8  and  C_10 
+REMARK       I    between atoms: C_8  and  N_27 
+REMARK    3  A    between atoms: C_11  and  C_19 
+REMARK    4  A    between atoms: N_15  and  C_19 
+REMARK    5  A    between atoms: N_15  and  C_20 
+REMARK    6  A    between atoms: N_27  and  CA_29 
+REMARK    7  A    between atoms: C_28  and  OXT_35 
+REMARK    8  A    between atoms: C_28  and  CA_29 
+REMARK    9  A    between atoms: CA_29  and  CB_33 
+REMARK   10  A    between atoms: CD_30  and  CG_34 
+REMARK   11  A    between atoms: CD_30  and  OE2_36 
+REMARK   12  A    between atoms: CB_33  and  CG_34 
+ROOT
+HETATM    1  C   UNK A   0      -9.674  -7.508   1.265  1.00  0.00     0.032 C 
+HETATM    2  C   UNK A   0      -8.909  -8.580   1.736  1.00  0.00     0.019 C 
+HETATM    3  C   UNK A   0     -10.780  -7.759   0.462  1.00  0.00     0.019 C 
+HETATM    4  C   UNK A   0     -10.130 -10.106   0.292  1.00  0.00     0.008 C 
+HETATM    5  C   UNK A   0     -10.996  -9.055  -0.035  1.00  0.00     0.024 C 
+HETATM    6  C   UNK A   0      -9.154  -9.870   1.269  1.00  0.00     0.024 C 
+ENDROOT
+BRANCH   4   7
+HETATM    7  N   UNK A   0     -10.243 -11.410  -0.228  1.00  0.00    -0.287 NA
+HETATM    8  H   UNK A   0      -9.360 -11.886  -0.056  1.00  0.00     0.128 HD
+BRANCH   7   9
+HETATM    9  C   UNK A   0     -10.587 -11.517  -1.661  1.00  0.00     0.153 C 
+BRANCH   9  10
+HETATM   10  C   UNK A   0     -10.598 -12.948  -2.176  1.00  0.00     0.066 A 
+HETATM   11  N   UNK A   0     -10.920 -13.130  -3.485  1.00  0.00    -0.241 NA
+HETATM   12  C   UNK A   0     -10.906 -14.420  -3.930  1.00  0.00     0.173 A 
+HETATM   13  C   UNK A   0     -11.257 -14.729  -5.352  1.00  0.00     0.302 A 
+HETATM   14  C   UNK A   0     -10.572 -15.502  -3.126  1.00  0.00     0.164 A 
+HETATM   15  N   UNK A   0     -11.217 -16.048  -5.790  1.00  0.00    -0.179 NA
+HETATM   16  O   UNK A   0     -11.579 -13.816  -6.100  1.00  0.00    -0.263 OA
+HETATM   17  C   UNK A   0     -10.901 -16.970  -4.946  1.00  0.00     0.182 A 
+HETATM   18  N   UNK A   0     -10.594 -16.786  -3.644  1.00  0.00    -0.314 N 
+HETATM   19  H   UNK A   0     -10.256 -17.518  -3.042  1.00  0.00     0.170 HD
+HETATM   20  N   UNK A   0     -10.246 -15.329  -1.827  1.00  0.00    -0.239 NA
+HETATM   21  C   UNK A   0     -10.280 -14.046  -1.376  1.00  0.00     0.147 A 
+BRANCH  17  22
+HETATM   22  N   UNK A   0     -10.855 -18.269  -5.331  1.00  0.00    -0.272 NA
+HETATM   23  H   UNK A   0     -11.230 -18.381  -6.271  1.00  0.00     0.127 HD
+HETATM   24  H   UNK A   0     -11.288 -18.923  -4.692  1.00  0.00     0.127 HD
+ENDBRANCH  17  22
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  25
+HETATM   25  C   UNK A   0      -9.234  -6.159   1.661  1.00  0.00     0.252 C 
+ATOM     26  N   GLU A   1      -8.931  -5.178   0.752  1.00  0.00    -0.343 N 
+ATOM     27  H   GLU A   1      -8.718  -4.339   1.287  1.00  0.00     0.163 HD
+HETATM   28  O   UNK A   0      -8.977  -5.956   2.846  1.00  0.00    -0.268 OA
+BRANCH  26  29
+ATOM     29  CA  GLU A   1      -9.266  -4.875  -0.654  1.00  0.00     0.183 C 
+BRANCH  29  30
+ATOM     30  C   GLU A   1     -10.592  -4.075  -0.665  1.00  0.00     0.163 C 
+ATOM     31  O   GLU A   1     -11.133  -3.646   0.347  1.00  0.00    -0.648 OA
+BRANCH  30  32
+ATOM     32  OXT GLU A   1     -11.089  -3.782  -1.887  1.00  0.00    -0.775 OA
+ATOM     33  HXT GLU A   1     -10.595  -4.097  -2.664  1.00  0.00     0.167 HD
+ENDBRANCH  30  32
+ENDBRANCH  29  30
+BRANCH  29  34
+ATOM     34  CB  GLU A   1      -9.226  -6.009  -1.683  1.00  0.00     0.046 C 
+BRANCH  34  35
+ATOM     35  CG  GLU A   1      -7.999  -6.920  -1.626  1.00  0.00     0.112 C 
+BRANCH  35  36
+ATOM     36  CD  GLU A   1      -8.302  -8.244  -2.291  1.00  0.00     0.139 C 
+ATOM     37  OE1 GLU A   1      -9.125  -8.394  -3.182  1.00  0.00    -0.650 OA
+BRANCH  36  38
+ATOM     38  OE2 GLU A   1      -7.549  -9.264  -1.826  1.00  0.00    -0.776 OA
+ATOM     39  HE2 GLU A   1      -6.956  -9.016  -1.091  1.00  0.00     0.167 HD
+ENDBRANCH  36  38
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  29  34
+ENDBRANCH  26  29
+ENDBRANCH   1  25
+TORSDOF 12

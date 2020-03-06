@@ -1,0 +1,10 @@
+Numberofpointstocluster: 8659
+Numberofclusters: 1
+Scoreonlyforligand: -10.32
+Ligandbelongstocluster: 0
+Forcluster 0
+Population: 7702
+cm: 34.24 54.48 49.22
+averE: -6.66
+averRg: 3.39
+Pointsnotclustered: 957

@@ -1,0 +1,62 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBF_2  and  OAW_5 
+REMARK    2  A    between atoms: OAW_5  and  CAZ_6 
+REMARK    3  A    between atoms: CAY_11  and  NAT_12 
+REMARK       I    between atoms: NAT_12  and  CAX_13 
+REMARK       I    between atoms: CAX_13  and  NAU_15 
+REMARK    4  A    between atoms: NAU_15  and  CBA_16 
+REMARK    5  A    between atoms: CBC_21  and  OAV_22 
+REMARK    6  A    between atoms: OAV_22  and  CBB_23 
+REMARK    7  A    between atoms: CBD_28  and  CBE_29 
+ROOT
+HETATM    1  CBA UNK     1     -15.755  35.491   4.002  1.00  0.00     0.090 A 
+HETATM    2  CAL UNK     1     -16.246  36.691   3.484  1.00  0.00     0.035 A 
+HETATM    3  CAJ UNK     1     -15.540  37.368   2.492  1.00  0.00     0.022 A 
+HETATM    4  CAK UNK     1     -14.373  36.802   2.014  1.00  0.00     0.119 A 
+HETATM    5  NAS UNK     1     -13.866  35.641   2.472  1.00  0.00    -0.235 NA
+HETATM    6  CBC UNK     1     -14.539  35.029   3.479  1.00  0.00     0.197 A 
+ENDROOT
+BRANCH   1   7
+HETATM    7  NAU UNK     1     -16.432  34.729   4.992  1.00  0.00    -0.305 N 
+HETATM    8  CAX UNK     1     -17.512  35.146   5.754  1.00  0.00     0.325 C 
+HETATM    9  NAT UNK     1     -18.034  34.104   6.500  1.00  0.00    -0.309 N 
+HETATM   10  OAD UNK     1     -17.938  36.294   5.757  1.00  0.00    -0.247 OA
+HETATM   11  HAT UNK     1     -17.685  33.181   6.291  1.00  0.00     0.170 HD
+HETATM   12  HAU UNK     1     -15.971  33.872   5.260  1.00  0.00     0.171 HD
+BRANCH   9  13
+HETATM   13  CAY UNK     1     -19.066  34.185   7.461  1.00  0.00     0.036 A 
+HETATM   14  CAO UNK     1     -19.476  33.000   8.085  1.00  0.00     0.032 A 
+HETATM   15  CAQ UNK     1     -20.446  33.017   9.100  1.00  0.00     0.039 A 
+HETATM   16  CAZ UNK     1     -21.009  34.225   9.506  1.00  0.00     0.078 A 
+HETATM   17  CAR UNK     1     -20.650  35.397   8.846  1.00  0.00     0.039 A 
+HETATM   18  CAP UNK     1     -19.680  35.380   7.840  1.00  0.00     0.032 A 
+BRANCH  16  19
+HETATM   19  OAW UNK     1     -21.919  34.391  10.508  1.00  0.00    -0.255 OA
+BRANCH  19  20
+HETATM   20  CBF UNK     1     -21.871  33.456  11.572  1.00  0.00     0.530 C 
+HETATM   21  FAE UNK     1     -22.470  34.002  12.654  1.00  0.00    -0.144 F 
+HETATM   22  FAG UNK     1     -20.604  33.137  11.915  1.00  0.00    -0.144 F 
+HETATM   23  FAF UNK     1     -22.541  32.331  11.240  1.00  0.00    -0.144 F 
+ENDBRANCH  19  20
+ENDBRANCH  16  19
+ENDBRANCH   9  13
+ENDBRANCH   1   7
+BRANCH   6  24
+HETATM   24  OAV UNK     1     -14.013  33.864   4.046  1.00  0.00    -0.290 OA
+BRANCH  24  25
+HETATM   25  CBB UNK     1     -12.646  33.652   4.011  1.00  0.00     0.085 A 
+HETATM   26  CAM UNK     1     -11.746  34.724   4.158  1.00  0.00     0.038 A 
+HETATM   27  CAH UNK     1     -10.371  34.520   4.114  1.00  0.00     0.003 A 
+HETATM   28  CAI UNK     1      -9.879  33.236   3.956  1.00  0.00     0.001 A 
+HETATM   29  CAN UNK     1     -10.762  32.154   3.876  1.00  0.00     0.011 A 
+HETATM   30  CBD UNK     1     -12.165  32.321   3.926  1.00  0.00    -0.017 A 
+BRANCH  30  31
+HETATM   31  CBE UNK     1     -13.097  31.086   3.937  1.00  0.00    -0.021 C 
+HETATM   32  CAB UNK     1     -14.084  31.114   2.751  1.00  0.00     0.019 C 
+HETATM   33  CAA UNK     1     -13.877  31.040   5.270  1.00  0.00     0.019 C 
+HETATM   34  CAC UNK     1     -12.341  29.734   3.836  1.00  0.00     0.019 C 
+ENDBRANCH  30  31
+ENDBRANCH  24  25
+ENDBRANCH   6  24
+TORSDOF 7

@@ -1,0 +1,66 @@
+FAMILY|PDBID|NAME|COMMENT|
+PHOSPHATASE|2H02|Protein tyrosine phosphatase receptor type B|Removed chain B (see biological assembly)|
+PHOSPHATASE|3F81|Dual specificity protein phosphatase 3||
+PHOSPHATASE|3O5X|Tyrosine-protein phosphatase non-receptor type 11||
+PHOSPHATASE|4GE2|Tyrosine-protein phosphatase non-receptor type 9|Removed chain B (see biological assembly)|
+PHOSPHATASE|5T19|Tyrosine-protein phosphatase non-receptor type 1||
+PROTEASE|1HFC|Matrix metalloprotease 1|Kept ZN|
+PROTEASE|4G9L|Matrix metalloprotease 3|Removed chain A (see biological assembly);Kept ZN
+PROTEASE|4H3X|Matrix metalloprotease 9|Removed chain B (see biological assembly);Kept ZN|
+PROTEASE|4JP4|Matrix metalloprotease 13|Kept ZN|
+PROTEASE|5A8X|Neutrophil elastase||
+PROTEASE|5V0N|Beta-secretase 1|Removed chains B and C (see biological assembly)|
+NUCLEAR RECEPTOR|4OIV|Farnesoid X receptor|Manual loop modelling using Chimera|
+NUCLEAR RECEPTOR|4LNW|Thyroid receptor alpha|Modified residue CAS changed to CYS|
+NUCLEAR RECEPTOR|4OAR|Progesterone receptor|Removed corepressor (chain B)|
+NUCLEAR RECEPTOR|5A86|Pregnane X receptor|Removed coactivator (chains C and D)|
+NUCLEAR RECEPTOR|5HYK|Peroxisome proliferator-activated receptor alpha||
+NUCLEAR RECEPTOR|5U2D|Estrogen receptor|Removed coactivator (chains C and D)|
+NUCLEAR RECEPTOR|5L7E|Mineralcorticoid receptor|Removed coactivator (chain B);expression tags at end of chain not modelled|
+NUCLEAR RECEPTOR|5LYQ|Retinoic acid receptor|Removed coactivator (chain B)|
+NUCLEAR RECEPTOR|5T8E|Androgen receptor||
+NUCLEAR RECEPTOR|5TTO|Peroxisome proliferator-activated receptor gamma||
+NUCLEAR RECEPTOR|5UFS|Ancestral glucocorticoid receptor 2|Removed chains B and C (see biological assembly) and coregulator fragment (chain D)|
+KINASE|2OJ9|Insulin-like growth factor 1 receptor precursor||
+KINASE|3KN5|Ribosomal protein S6 kinase alpha-5|Removed chain B (see biological assembly);Modified residue TPO changed to THR|
+KINASE|3M2W|MAP kinase-activated protein kinase 2||
+KINASE|3W2S|EGF receptor |Manual loop modelling using Chimera|
+KINASE|4ACC|Glycogen synthase kinase 3 beta||
+KINASE|4AGD|Vascular endothelial growth factor receptor 2||
+KINASE|4GV1|PKB kinase alpha|Modified residue TPO changed to THR|
+KINASE|4HGT|Casein kinase I isoform delta|Removed chain B (see biological assembly)|
+KINASE|4QTB|Mitogen-activated protein kinase 3|Removed chain B (see biological assembly)|
+KINASE|4R7H|Macrophage colony-stimulating factor 1 receptor|SEQADV deletion (res. 969-741) not modelled|
+KINASE|4TV3|p110 alpha|Manual curation|
+KINASE|4W4W|c-Jun kinase 3|Manual loop modelling using Chimera|
+KINASE|4ZTQ|Aurora A kinase||
+KINASE|5CF4|Janus kinase 2|Removed chain B (see biological assembly);Modified residue PTR changed to TYR|
+KINASE|5E1S|Insulin receptor||
+KINASE|5HTI|Hepatocyte growth factor receptor||
+KINASE|5HVU|Rho-associated protein kinase 1||
+KINASE|5JFS|High affinity nerve growth factor receptor|Removed expression tag (res. 489-501)|
+KINASE|5M57|Serine/threonine-protein kinase Nek2|Removed expression tag (res. 272-279)
+KINASE|5NGU|Mitogen-activated protein kinase 1|Modified residue CME changed to CYS|
+KINASE|5UQ0|Fibroblast growth factor receptor 1|Removed chain B (see biological assembly);Manual curation|
+KINASE|5VED|Serine/threonine-protein kinase PAK 4|Modified residue SEP changed to SER|
+CYP|2HI4|Cytochrome P450 1A2|Kept HEM|
+CYP|4I8V|Cytochrome P450 1A1|Kept HEM;Removed chains B and C and D (see biological assembly)|
+CYP|4NZ2|Cytochrome P450 2C9|Kept HEM;Removed chain B (see biological assembly);Removed insertion (res. 27-29)|
+CYP|5TFT|Cytochrome P450 2D6|Kept HEM and ZN;Removed chains B and C and D (see biological assembly);Removed expression tag (res. 31-33)|
+GPCR|3NY9|Beta-2 adrenergic receptor|Removed lysozyme (res. 1002-1161);Manual curation|
+GPCR|4N6H|Opioid receptor|Removed cytochrome b562 (res. 1001-1106);Manual curation|
+GPCR|4OR2|Metabotropic glutamate receptor 1|Removed cytochrome b562 (res. 1001-1106 on chain A and chain B);Manual curation|
+GPCR|4XNV|P2Y purinoceptor 1|Removed fusion tag rubredoxin (res. 1001-1054) and ZN (binds to rubredoxin);Manual curation|
+GPCR|5CGD|Metabotropic glutamate receptor 5|Removed Endolysin (res. 1002-1161);Removed expression tag (res. 568);Manual curation|
+GPCR|5CXV|Muscarinic acetylcholine receptor M1|Removed Endolysin (res. 1001-1160);Removed FLAG peptide (chain C);Manual curation|
+GPCR|5DSG|Muscarinic acetylcholine receptor M4|Removed Endolysin (res. 1002-1118);Removed chain B (see biological assembly);Removed expression tag (res. 20-21);Manual curation|
+GPCR|5UNF|Angiotensin II receptor|Removed cytochrome b562;Manual curation|
+GPCR|5ZKC|Muscarinic acetylcholine receptor M2|Removed cytochrome b562 (res. 1001-1106)|
+OTHER|2C67|Monoamine oxidase B|Kept FAD (covalently bound)|
+OTHER|2Z5X|Monoamine oxidase A anchored|Kept FAD|
+OTHER|2QYK|Cyclic AMP-specific phosphodiesterase HSPDE4A10|Kept ZN;Removed chain B (see biological assembly)|
+OTHER|5UWF|Phosphodiesterase-1|Kept ZN;Removed chain D (see biological assembly)|
+OTHER|4D1O|Nitric oxide synthase|Kept ZN;Kept HEM;Manual curation|
+OTHER|4OEW|Phosphodiesterase-5|Kept ZN;Manual curation|
+OTHER|3ZGV|Sirtuin-2|Kept ZN|
+OTHER|5KIR|Prostaglandin H synthase-2||

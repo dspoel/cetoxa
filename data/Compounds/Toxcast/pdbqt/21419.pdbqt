@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CA_3 
+REMARK    2  A    between atoms: C_1  and  OXT_15 
+REMARK    3  A    between atoms: N_2  and  CA_3 
+REMARK    4  A    between atoms: CA_3  and  CB_4 
+REMARK    5  A    between atoms: CB_4  and  CG_5 
+ROOT
+ATOM      1  CG  TRP A   1       0.457  -3.168   1.946  1.00  0.00    -0.028 A 
+ATOM      2  CD1 TRP A   1       0.763  -4.503   1.750  1.00  0.00     0.096 A 
+ATOM      3  NE1 TRP A   1      -0.073  -5.259   2.523  1.00  0.00    -0.365 N 
+ATOM      4  CE2 TRP A   1      -0.932  -4.449   3.225  1.00  0.00     0.042 A 
+ATOM      5  CZ2 TRP A   1      -1.953  -4.789   4.120  1.00  0.00     0.030 A 
+ATOM      6  CH2 TRP A   1      -2.683  -3.748   4.698  1.00  0.00     0.002 A 
+ATOM      7  CZ3 TRP A   1      -2.391  -2.420   4.401  1.00  0.00     0.001 A 
+ATOM      8  CE3 TRP A   1      -1.358  -2.098   3.513  1.00  0.00     0.014 A 
+ATOM      9  CD2 TRP A   1      -0.616  -3.128   2.898  1.00  0.00    -0.002 A 
+ATOM     10  HE1 TRP A   1      -0.067  -6.269   2.574  1.00  0.00     0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TRP A   1       1.156  -2.016   1.280  1.00  0.00     0.087 C 
+BRANCH  11  12
+ATOM     12  CA  TRP A   1       0.245  -1.055   0.498  1.00  0.00     0.318 C 
+BRANCH  12  13
+ATOM     13  C   TRP A   1       0.950   0.190  -0.076  1.00  0.00     0.174 C 
+ATOM     14  O   TRP A   1       0.317   1.166  -0.474  1.00  0.00    -0.648 OA
+BRANCH  13  15
+ATOM     15  OXT TRP A   1       2.295   0.159  -0.171  1.00  0.00    -0.775 OA
+ATOM     16  HXT TRP A   1       2.725  -0.687   0.038  1.00  0.00     0.167 HD
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  N   TRP A   1      -0.471  -1.743  -0.600  1.00  0.00     0.093 N 
+ATOM     18  H1  TRP A   1      -1.100  -1.062  -1.035  1.00  0.00     0.314 HD
+ATOM     19  H2  TRP A   1      -1.083  -2.450  -0.185  1.00  0.00     0.314 HD
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5
