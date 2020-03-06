@@ -1,6 +1,6 @@
 # 
-Development details
-===================
+Installation details
+====================
 The following packages need to be installed.
 
 + Boost.
