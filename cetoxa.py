@@ -238,11 +238,11 @@ if __name__ == '__main__':
         print("Please add qvina02 to your search path or use the -vina flag")
     target_dir  = cetoxa_dir + "/data/Targets/pdbqt"
     targets     = get_pdbqt(target_dir)
-    targetList  = cetoxa_dir + "/data/Targets/Target-list.txt"
+    targetList  = cetoxa_dir + "/data/Targets/Target-list.csv"
     ligand      = args.infile
     binding_dir = cetoxa_dir + "/data/Targets/bindingsites"
 
-    protInfo    = pd.read_csv(targetList,sep='|')
+    protInfo    = pd.read_csv(targetList,sep=',')
 
     # Dock
     print("A Computational Ecotoxicity Assay")
