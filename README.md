@@ -10,7 +10,9 @@ Usage:
 
 Start by running:
 
-./cetoxa.py -h
+> ./cetoxa.py -h
+
+Then change directory to the example and read the documentation there.
 
 References
 ==========
