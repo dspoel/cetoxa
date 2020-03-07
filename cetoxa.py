@@ -248,7 +248,7 @@ if __name__ == '__main__':
     print("A Computational Ecotoxicity Assay")
     print("https://doi.org/10.26434/chemrxiv.11944371.v1")
     if args.verbose:
-        printf("Calling %s to perform docking" % args.vina)
+        print("Calling %s to perform docking" % args.vina)
     tmpdir = "temp"
     os.makedirs(tmpdir, exist_ok=True)
     if not args.analyze:
