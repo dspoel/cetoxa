@@ -127,31 +127,33 @@ def dock(pathway, tmpdir, target_dir, targets, binding_dir,
             else:
                 os.system("%s >& /dev/null" % cmd)
 
-def vina_compare(a, b):
-    if (str(a[0]) == str(b[0])):
-        return a[2]-b[2]
-    else:
-        return str(a[0]) < str(b[0])
-
-def cmp_to_key(mycmp):
-    'Convert a cmp= function into a key= function'
-    class K:
-        def __init__(self, obj, *args):
-            self.obj = obj
-        def __lt__(self, other):
-            return mycmp(self.obj, other.obj) < 0
-        def __gt__(self, other):
-            return mycmp(self.obj, other.obj) > 0
-        def __eq__(self, other):
-            return mycmp(self.obj, other.obj) == 0
-        def __le__(self, other):
-            return mycmp(self.obj, other.obj) <= 0
-        def __ge__(self, other):
-            return mycmp(self.obj, other.obj) >= 0
-        def __ne__(self, other):
-            return mycmp(self.obj, other.obj) != 0
-    return K
-
+class DockingResult:
+    def __init__(self, family, name, score, site):
+        self.family = family
+        self.name   = name
+        self.score  = score
+        self.site   = site
+    def __lt__(self, other):
+        if self.family == other.family:
+            return self.score < other.score
+        else:
+            return self.family < other.family
+    def __gt__(self, other):
+        if self.family == other.family:
+            return self.score > other.score
+        else:
+            return self.family > other.family
+    def __eq__(self, other):
+        return self == other
+    def __le__(self, other):
+        return __eq__(other) or __lt__(other)
+    def __ge__(self, other):
+        return __eq__(other) or __gt__(other)
+    def __ne__(self, other):
+        return not __eq__(other)
+    def printCsv(self, outputFile):
+        outputFile.write("%s,%s,%g,%s\n" % ( self.family, self.name, self.score, self.site ) )
+    
 def extract(protInfo, tmpdir, targets, binding_dir, ligand, outfile):
     output = []
     for ppp in range(len(targets)):
@@ -178,19 +180,19 @@ def extract(protInfo, tmpdir, targets, binding_dir, ligand, outfile):
             else:
                 print("No such output file %s" % model)
         if index != None:
-            output.append([protfam, protname, energy, index])
+            output.append(DockingResult(protfam, protname, energy, index))
         else:
             # Print a warning, but keep going
             print("Warning, no energy for target %s" % target)
 
     #Sort the energies
-    sorted_output = sorted(output, key=cmp_to_key(vina_compare))
+    sorted_output = sorted(output)
 
     with open(outfile, "w") as outputfile:
         # Print the results
         outputfile.write("%s,%s,%s,%s\n" % ( 'Class', 'Target', 'Score', 'Site' ) )
         for data in sorted_output:
-            outputfile.write("%s,%s,%g,%s\n" % ( data[0], data[1], data[2], data[3] ) )
+            data.printCsv(outputfile)
 
 def which(program):
     def is_exe(fpath):
