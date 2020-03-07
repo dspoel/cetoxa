@@ -264,6 +264,6 @@ if __name__ == '__main__':
     
     print("A summary of results is in %s." % args.outfile)
     if args.remove_temp:
-        print("The inermediate results in %s will be remove." % tmpdir)
+        print("The intermediate results in %s will be removed." % tmpdir)
         shutil.rmtree(tmpdir)
     
