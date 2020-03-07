@@ -259,7 +259,7 @@ if __name__ == '__main__':
     
     # Extract top scores
     if args.verbose:
-        print("Extracting scores from %s to %s." % tmpdir, args.outfile)
+        print("Extracting scores from %s to %s." % (tmpdir, args.outfile))
     extract(protInfo, tmpdir, targets, binding_dir, ligand, args.outfile)
     
     print("A summary of results is in %s." % args.outfile)
