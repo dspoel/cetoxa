@@ -39,7 +39,7 @@ Kinase,5E1S,Insulin receptor,,
 Kinase,5HTI,Hepatocyte growth factor receptor,,
 Kinase,5HVU,Rho-associated protein kinase 1,,
 Kinase,5JFS,High affinity nerve growth factor receptor,Removed expression tag (res. 489-501),
-Kinase,5M57,Serine/threonine-protein kinase Nek2,Removed expression tag (res. 272-279)
+Kinase,5M57,Serine/threonine-protein kinase Nek2,Removed expression tag (res. 272-279),
 Kinase,5NGU,Mitogen-activated protein kinase 1,Modified residue CME changed to CYS,
 Kinase,5UQ0,Fibroblast growth factor receptor 1,Removed chain B (see biological assembly). Manual curation,
 Kinase,5VED,Serine/threonine-protein kinase PAK 4,Modified residue SEP changed to SER,
