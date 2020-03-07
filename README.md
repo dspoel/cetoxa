@@ -16,7 +16,9 @@ Then change directory to the example and read the documentation there.
 
 References
 ==========
-+ Natasha Kamerlin, Mickael G. Delcey, Sergio Manzetti and David van der Spoel, Towards a computational ecotoxicology assay, Submitted (2020)
++ Natasha Kamerlin, Mickael G. Delcey, Sergio Manzetti and David van
+  der Spoel, Towards a computational ecotoxicology assay, Submitted
+  (2020). https://doi.org/10.26434/chemrxiv.11944371.v1
 
 + Amr Alhossary, Stephanus Daniel Handoko, Yuguang Mu and Chee-Keong Kwoh, Fast, Accurate, and Reliable Molecular Docking with QuickVina 2,  Bioinformatics 31 (2015) 2214–2216, http://dx.doi.org/10.1093/bioinformatics/btv082  
 

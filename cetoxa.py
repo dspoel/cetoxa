@@ -129,8 +129,8 @@ def dock(pathway, tmpdir, target_dir, targets, binding_dir,
 
 class DockingResult:
     def __init__(self, family, name, score, site):
-        self.family = family
-        self.name   = name
+        self.family = family.strip()
+        self.name   = name.strip()
         self.score  = score
         self.site   = site
     def __lt__(self, other):
@@ -220,7 +220,7 @@ def parseArguments():
     parser.add_argument("-o", "--outfile", help="CSV file for writing table of results",   type=str, default="results.csv")
     parser.add_argument("-vina", "--vina", help="Pathway to qvina02 executable", default=qvina)
     parser.add_argument("-v", "--verbose", help="Write to console and leave temporary data on disk", action="store_true")
-    parser.add_argument("-save", "--save_temp", help="Do not remove temporary data", action="store_true")
+    parser.add_argument("-rm", "--remove_temp", help="Remove temporary data", action="store_true")
     parser.add_argument("-analyze", "--analyze", help="Do not run the docking, just analyze existing results", action="store_true")
     parser.add_argument("-ncpu", "--ncpu", help="Number of cores to use", type=int, default=1)
     args = parser.parse_args()
@@ -245,21 +245,25 @@ if __name__ == '__main__':
     protInfo    = pd.read_csv(targetList,sep='|')
 
     # Dock
+    print("A Computational Ecotoxicity Assay")
+    print("https://doi.org/10.26434/chemrxiv.11944371.v1")
     if args.verbose:
-        print("Calling %s to perform docking" % args.vina)
+        printf("Calling %s to perform docking" % args.vina)
     tmpdir = "temp"
     os.makedirs(tmpdir, exist_ok=True)
     if not args.analyze:
         dock(args.vina, tmpdir, target_dir, targets, binding_dir,
              ligand, args.ncpu, args.verbose)
-    print("Docking complete! Temporary results in %s" % tmpdir)
-
+    if args.verbose:
+        print("Docking complete.")
+    
     # Extract top scores
     if args.verbose:
-        print("Extracting scores from %s" % tmpdir)
+        print("Extracting scores from %s to %s." % tmpdir, args.outfile)
     extract(protInfo, tmpdir, targets, binding_dir, ligand, args.outfile)
-
-    if args.save_temp:
+    
+    print("A summary of results is in %s." % args.outfile)
+    if args.remove_temp:
+        print("The inermediate results in %s will be remove." % tmpdir)
         shutil.rmtree(tmpdir)
-    if args.verbose:
-        print("Completed!")
+    

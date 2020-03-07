@@ -1,66 +1,66 @@
 Class,Target,Score,Site
- Cytochrome P450, Cytochrome P450 1A1,-7.3,0
- Cytochrome P450, Cytochrome P450 1A2,-7.1,0
- Cytochrome P450, Cytochrome P450 2C9,-6.2,0
- Cytochrome P450, Cytochrome P450 2D6,-5.9,0
- GPCR, Metabotropic glutamate receptor 5,-6.7,0
- GPCR, Beta-2 adrenergic receptor,-6.7,0
- GPCR, Metabotropic glutamate receptor 1,-6.6,0
- GPCR, Muscarinic acetylcholine receptor M1,-6.4,0
- GPCR, Muscarinic acetylcholine receptor M2,-6.3,0
- GPCR, Muscarinic acetylcholine receptor M4,-6.3,1
- GPCR, Angiotensin II receptor,-5.9,0
- GPCR, Opioid receptor,-5.7,0
- GPCR, P2Y purinoceptor 1,-5.2,0
- Kinase, Macrophage colony-stimulating factor 1 receptor,-6.6,0
- Kinase, EGF receptor ,-6.5,0
- Kinase, Vascular endothelial growth factor receptor 2,-6.5,0
- Kinase, Mitogen-activated protein kinase 3,-6.4,0
- Kinase, p110 alpha,-6.4,1
- Kinase, Fibroblast growth factor receptor 1,-6.4,0
- Kinase, Hepatocyte growth factor receptor,-6.2,0
- Kinase, Casein kinase I isoform delta,-6.1,0
- Kinase, Serine/threonine-protein kinase Nek2,-6,1
- Kinase, Rho-associated protein kinase 1,-6,0
- Kinase, Aurora A kinase,-6,0
- Kinase, High affinity nerve growth factor receptor,-5.9,0
- Kinase, MAP kinase-activated protein kinase 2,-5.9,1
- Kinase, Serine/threonine-protein kinase PAK 4,-5.8,2
- Kinase, Janus kinase 2,-5.8,0
- Kinase, Insulin-like growth factor 1 receptor precursor,-5.8,1
- Kinase, Glycogen synthase kinase 3 beta,-5.8,2
- Kinase, PKB kinase alpha,-5.7,0
- Kinase, c-Jun kinase 3,-5.6,0
- Kinase, Ribosomal protein S6 kinase alpha-5,-5.6,0
- Kinase, Mitogen-activated protein kinase 1,-5.5,0
- Kinase, Insulin receptor,-5.1,1
- Nuclear Receptor, Pregnane X receptor,-6.5,1
- Nuclear Receptor, Progesterone receptor,-6.3,2
- Nuclear Receptor, Retinoic acid receptor,-6.3,0
- Nuclear Receptor, Peroxisome proliferator-activated receptor alpha,-6.3,0
- Nuclear Receptor, Farnesoid X receptor,-6.2,0
- Nuclear Receptor, Mineralcorticoid receptor,-6.2,0
- Nuclear Receptor, Androgen receptor,-6.1,1
- Nuclear Receptor, Ancestral glucocorticoid receptor 2,-6,1
- Nuclear Receptor, Thyroid receptor alpha,-6,0
- Nuclear Receptor, Peroxisome proliferator-activated receptor gamma,-5.9,2
- Nuclear Receptor, Estrogen receptor,-5.8,1
- Other, Nitric oxide synthase,-7,1
- Other, Sirtuin-2,-6.7,1
- Other, Monoamine oxidase A anchored,-6.7,2
- Other, Monoamine oxidase B,-6.4,2
- Other, Prostaglandin H synthase-2,-6.2,0
- Other, Cyclic AMP-specific phosphodiesterase HSPDE4A10,-6,0
- Other, Phosphodiesterase-5,-5.9,0
- Other, Phosphodiesterase-1,-5.8,0
- Phosphatase, Tyrosine-protein phosphatase non-receptor type 1,-6.1,0
- Phosphatase, Tyrosine-protein phosphatase non-receptor type 9,-6,2
- Phosphatase, Protein tyrosine phosphatase receptor type B,-5.6,2
- Phosphatase, Tyrosine-protein phosphatase non-receptor type 11,-5.5,0
- Phosphatase, Dual specificity protein phosphatase 3,-5.1,2
- Protease, Matrix metalloprotease 1,-6.6,0
- Protease, Matrix metalloprotease 13,-6.4,0
- Protease, Matrix metalloprotease 3,-6.3,0
- Protease, Matrix metalloprotease 9,-6.2,0
- Protease, Beta-secretase 1,-6,0
- Protease, Neutrophil elastase,-5.3,0
+Cytochrome P450,Cytochrome P450 1A1,-7.3,0
+Cytochrome P450,Cytochrome P450 1A2,-7.1,0
+Cytochrome P450,Cytochrome P450 2C9,-6.2,0
+Cytochrome P450,Cytochrome P450 2D6,-5.9,0
+GPCR,Metabotropic glutamate receptor 5,-6.7,0
+GPCR,Beta-2 adrenergic receptor,-6.7,0
+GPCR,Metabotropic glutamate receptor 1,-6.6,0
+GPCR,Muscarinic acetylcholine receptor M1,-6.4,0
+GPCR,Muscarinic acetylcholine receptor M2,-6.3,0
+GPCR,Muscarinic acetylcholine receptor M4,-6.3,1
+GPCR,Angiotensin II receptor,-5.9,0
+GPCR,Opioid receptor,-5.7,0
+GPCR,P2Y purinoceptor 1,-5.2,0
+Kinase,Macrophage colony-stimulating factor 1 receptor,-6.6,0
+Kinase,EGF receptor,-6.5,0
+Kinase,Vascular endothelial growth factor receptor 2,-6.5,0
+Kinase,Mitogen-activated protein kinase 3,-6.4,0
+Kinase,p110 alpha,-6.4,1
+Kinase,Fibroblast growth factor receptor 1,-6.4,0
+Kinase,Hepatocyte growth factor receptor,-6.2,0
+Kinase,Casein kinase I isoform delta,-6.1,0
+Kinase,Serine/threonine-protein kinase Nek2,-6,1
+Kinase,Rho-associated protein kinase 1,-6,0
+Kinase,Aurora A kinase,-6,0
+Kinase,High affinity nerve growth factor receptor,-5.9,0
+Kinase,MAP kinase-activated protein kinase 2,-5.9,1
+Kinase,Serine/threonine-protein kinase PAK 4,-5.8,2
+Kinase,Janus kinase 2,-5.8,0
+Kinase,Insulin-like growth factor 1 receptor precursor,-5.8,1
+Kinase,Glycogen synthase kinase 3 beta,-5.8,2
+Kinase,PKB kinase alpha,-5.7,0
+Kinase,c-Jun kinase 3,-5.6,0
+Kinase,Ribosomal protein S6 kinase alpha-5,-5.6,0
+Kinase,Mitogen-activated protein kinase 1,-5.5,0
+Kinase,Insulin receptor,-5.1,1
+Nuclear Receptor,Pregnane X receptor,-6.5,1
+Nuclear Receptor,Progesterone receptor,-6.3,2
+Nuclear Receptor,Retinoic acid receptor,-6.3,0
+Nuclear Receptor,Peroxisome proliferator-activated receptor alpha,-6.3,0
+Nuclear Receptor,Farnesoid X receptor,-6.2,0
+Nuclear Receptor,Mineralcorticoid receptor,-6.2,0
+Nuclear Receptor,Androgen receptor,-6.1,1
+Nuclear Receptor,Ancestral glucocorticoid receptor 2,-6,1
+Nuclear Receptor,Thyroid receptor alpha,-6,0
+Nuclear Receptor,Peroxisome proliferator-activated receptor gamma,-5.9,2
+Nuclear Receptor,Estrogen receptor,-5.8,1
+Other,Nitric oxide synthase,-7,1
+Other,Sirtuin-2,-6.7,1
+Other,Monoamine oxidase A anchored,-6.7,2
+Other,Monoamine oxidase B,-6.4,2
+Other,Prostaglandin H synthase-2,-6.2,0
+Other,Cyclic AMP-specific phosphodiesterase HSPDE4A10,-6,0
+Other,Phosphodiesterase-5,-5.9,0
+Other,Phosphodiesterase-1,-5.8,0
+Phosphatase,Tyrosine-protein phosphatase non-receptor type 1,-6.1,0
+Phosphatase,Tyrosine-protein phosphatase non-receptor type 9,-6,2
+Phosphatase,Protein tyrosine phosphatase receptor type B,-5.6,2
+Phosphatase,Tyrosine-protein phosphatase non-receptor type 11,-5.5,0
+Phosphatase,Dual specificity protein phosphatase 3,-5.1,2
+Protease,Matrix metalloprotease 1,-6.6,0
+Protease,Matrix metalloprotease 13,-6.4,0
+Protease,Matrix metalloprotease 3,-6.3,0
+Protease,Matrix metalloprotease 9,-6.2,0
+Protease,Beta-secretase 1,-6,0
+Protease,Neutrophil elastase,-5.3,0
