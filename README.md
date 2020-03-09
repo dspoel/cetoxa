@@ -16,7 +16,7 @@ Then change directory to the example and read the documentation there.
 
 Main reference
 ==============
-+ Natasha Kamerlin, Mickael G. Delcey, Sergio Manzetti and David van
++ Natasha Kamerlin, Mickaël G. Delcey, Sergio Manzetti and David van
   der Spoel, Towards a computational ecotoxicology assay, Submitted
   (2020). https://doi.org/10.26434/chemrxiv.11944371.v1
 
