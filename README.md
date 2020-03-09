@@ -20,13 +20,25 @@ Main reference
   der Spoel, Towards a computational ecotoxicology assay, Submitted
   (2020). https://doi.org/10.26434/chemrxiv.11944371.v1
 
-Docking code references
-=======================
+Docking references
+==================
 + Amr Alhossary, Stephanus Daniel Handoko, Yuguang Mu and Chee-Keong Kwoh: Fast, Accurate, and Reliable Molecular Docking with QuickVina 2,  Bioinformatics 31 (2015) 2214–2216, http://dx.doi.org/10.1093/bioinformatics/btv082  
 
 + Stephanus Daniel Handoko, Xuchang Ouyang, Chinh Tran To Su, Chee Keong Kwoh and Yew Soon Ong: QuickVina: Accelerating AutoDock Vina Using Gradient-Based Heuristics for Global Optimization, IEEE/ACM Transact. Comput. Biol. Bioinf. 9, (2012) 1266-1272, http://dx.doi.org/10.1109/TCBB.2012.82 
 
 + O. Trott and A. J. Olson: AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization and multithreading, J. Comput. Chem. 31 (2010) 455-461, http://dx.doi.org/10.1002/jcc.21334
+
++ Mónika Bálint, Norbert Jeszenöi, István Horváth, David van der Spoel and Csaba Hetényi: Systematic exploration of multiple drug binding sites J. Cheminf. 9 pp. 65 (2017) https://doi.org/10.1186/s13321-017-0255-6
+
++ Norbert Jeszenöi, Mónika Bálint, István Horváth, David van der Spoel and Csaba Hetényi: Exploration of Interfacial Hydration Networks of Target-Ligand Complexes J. Chem. Inf. Model. 56 pp. 148-158 (2016) https://doi.org/10.1021/acs.jcim.5b00638
+
++ Norbert Jeszenöi, István Horváth, Mónika Bálint, David van der Spoel and Csaba Hetényi: Mobility-based prediction of hydration structures of protein surfaces Bioinformatics 31 pp. 1959-1965 (2015) http://dx.doi.org/10.1093/bioinformatics/btv093
+
++ Csaba Hetényi and David van der Spoel: Towards prediction of functional protein pockets using blind docking and pocket search algorithms Protein Science 20 pp. 880-893 (2011) http://dx.doi.org/10.1002/pro.618
+
++ C. Hetényi and D. van der Spoel: Blind docking of drug-sized ligands to proteins up to thousand residues. FEBS Letters 580 pp. 1447-1450 (2006) https://doi.org/10.1016/j.febslet.2006.01.074
+
++ C. Hetényi and D. van der Spoel: Efficient docking of peptides to proteins without prior knowledge of the binding site. Prot. Sci. 11 pp. 1729-1737 (2002) https://doi.org/10.1110/ps.0202302
 
 Other ecotoxicology references
 ==============================
