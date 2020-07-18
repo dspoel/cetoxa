@@ -17,8 +17,8 @@ Then change directory to the example and read the documentation there.
 Main reference
 ==============
 + Natasha Kamerlin, Mickaël G. Delcey, Sergio Manzetti and David van
-  der Spoel, Towards a computational ecotoxicology assay, Submitted
-  (2020). https://doi.org/10.26434/chemrxiv.11944371.v1
+  der Spoel, Towards a computational ecotoxicology assay, J. Chem. Inf. Model.
+  (2020). https://doi.org/10.1021/acs.jcim.0c00574
 
 Docking references
 ==================
